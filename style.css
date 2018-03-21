@@ -272,6 +272,9 @@
 				margin-bottom: 0.2em;
 				box-shadow: 0 0 0.2em #cccccc;
 			}
+			.textopost {
+				display: none;
+			}
 			#post img {
 				display: inline-block;
 				width: 25%;

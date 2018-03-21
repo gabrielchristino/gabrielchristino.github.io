@@ -1,0 +1,303 @@
+<html>
+	<head>
+		<title>Gabriel Christino</title>
+        <meta charset="UTF-8">
+        <meta lang="pt-BR">
+		<script>
+			function inicio() {
+				var isMobile = {
+					Android: function() {
+						return navigator.userAgent.match(/Android/i);
+					},
+					BlackBerry: function() {
+						return navigator.userAgent.match(/BlackBerry/i);
+					},
+					iOS: function() {
+						return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+					},
+					Opera: function() {
+						return navigator.userAgent.match(/Opera Mini/i);
+					},
+					Windows: function() {
+						return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+					},
+					any: function() {
+						return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+					}
+				};
+				
+				if( isMobile.any() ) {
+					document.getElementById('sidebar').style.display = 'none';
+					document.getElementById('btnsidebar').innerText="|||";
+				} else {
+					document.getElementById('sidebar').style.display = 'block';
+					document.getElementById('out').style.width = '0';
+					document.getElementById('sidebar').style.width = '16%';
+					document.getElementById('bar').style.width = '100%';
+					document.getElementById('right').style.width = 'calc(84% - 0.5em)';
+					document.getElementById('right').style.left = 'calc(16% + 0.5em)';
+					document.getElementById('btnsidebar').innerText="|||";
+				}
+			}
+			
+			function sidebar() {
+				var y = document.getElementById('sidebar');
+					if (y.style.display === 'block') {
+						y.style.display = 'none';
+						document.getElementById('btnsidebar').innerText="|||";
+					} else {
+						y.style.display = 'block';
+						document.getElementById('btnsidebar').innerText="×";
+					}
+			}
+			function phome() {
+				document.getElementById('home').style.display = 'block';
+				document.getElementById('sobre').style.display = 'none';
+				document.getElementById('strtcode').style.display = 'none';
+				document.getElementById('tips').style.display = 'none';
+				document.getElementById('pogs').style.display = 'none';
+				sidebar();
+			}
+			function psobre() {
+				document.getElementById('home').style.display = 'none';
+				document.getElementById('sobre').style.display = 'block';
+				document.getElementById('strtcode').style.display = 'none';
+				document.getElementById('tips').style.display = 'none';
+				document.getElementById('pogs').style.display = 'none';
+				sidebar();
+			}
+			function pstrtcode() {
+				document.getElementById('home').style.display = 'none';
+				document.getElementById('sobre').style.display = 'none';
+				document.getElementById('strtcode').style.display = 'block';
+				document.getElementById('tips').style.display = 'none';
+				document.getElementById('pogs').style.display = 'none';
+				sidebar();
+			}
+			function ptips() {
+				document.getElementById('home').style.display = 'none';
+				document.getElementById('sobre').style.display = 'none';
+				document.getElementById('strtcode').style.display = 'none';
+				document.getElementById('tips').style.display = 'block';
+				document.getElementById('pogs').style.display = 'none';
+				sidebar();
+			}
+			function ppogs() {
+				document.getElementById('home').style.display = 'none';
+				document.getElementById('sobre').style.display = 'none';
+				document.getElementById('strtcode').style.display = 'none';
+				document.getElementById('tips').style.display = 'none';
+				document.getElementById('pogs').style.display = 'block';
+				sidebar();
+			}
+			function postopen(postagem) {
+				var x = document.getElementById(postagem);
+				if (x.style.display === 'block') {
+					x.style.display = 'none';
+				} else {
+					x.style.display = 'block';
+				}
+			}
+		</script>
+		<style>
+			body {
+				font-family: verdana;
+				font-size: 3.5em;
+			}
+			header {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 2.5em;
+				box-shadow: 0 0.2em 0.2em #cccccc;
+				z-index: 3;
+			}
+			header spam {
+				font-size: 1.2em;
+				top: 0.5em;
+				left: 2em;
+				display: inline-block;
+				position: absolute;
+			}
+			header button {
+				position: absolute;
+				font-size: 1.7em;
+				border: none;
+				color: #555555;
+				background-color: rgba(0, 0, 0, 0);
+				cursor: pointer;
+				display: inline-block;
+				-webkit-appearance: none;
+				left: -0.4em;
+				width: 1.5em;
+				height: 1.5em;
+				transform: rotate(90deg);
+				-o-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				-webkit-transform: rotate(90deg);
+			}
+			#right {
+				position: absolute;
+				width: calc(100% - 0.2em);
+				height: calc(100% - 3em);
+				top: 2.7em;
+				left: 0.2em;
+				z-index: -1;
+				overflow: scroll;
+			}
+			#right #home {
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #sobre {
+				display: none;
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #strtcode {
+				display: none;
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #tips {
+				display: none;
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #pogs {
+				display: none;
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #h3 {
+				margin: 0;
+				padding: 0;
+			}
+			#post {
+				margin-top: 0;
+				width: calc(100% - 0.8em);
+				padding: 0.2em;
+				padding-bottom: 0;
+				margin-left: 0.1em;
+				margin-bottom: 0.2em;
+				box-shadow: 0 0 0.2em #cccccc;
+			}
+			#post img {
+				display: inline-block;
+				width: 25%;
+				min-width: 4em;
+				max-width: 10em;;
+				height: auto;
+				vertical-align: middle;
+				margin-bottom: 0.2em;
+			}
+			#post p {
+				display: inline-block;
+			}
+			#post div {
+				display: none;
+			}
+			left {
+				position: absolute;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
+				left: 0;
+				display: none;
+				background-color: rgba(0, 0, 0, 0.1);
+				z-index: 4;
+			}
+			left #bar {
+				position: absolute;
+				width: 80%;
+				height: 100%;
+				left: 0;
+				top: 0;
+				background-color: #405080;
+				color: #f4f4f4;
+				font-size: 1em;
+				box-shadow: 0.2em 0 0.2em #cccccc;
+			}
+			left #out {
+				position: absolute;
+				width: 20%;
+				height: 100%;
+				left: 80%;
+				top: 0;
+			}
+			ul {
+				list-style-type: none
+			}
+			ul li {
+				padding: 0.6em;
+			}
+			ul li:hover {
+				transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-webkit-transition: all 0.3s ease;
+				background-color: #6070a0;
+				box-shadow: 0 0 0.3em #dddddd;
+			}
+			footer {
+				
+			}
+		</style>
+	</head>
+	<body onload="inicio()">
+		<header><button id="btnsidebar" onclick="sidebar();">|||</button><spam>Gabriel Christino</spam></header>
+		<left id="sidebar">
+			<div id="bar">
+				<ul>
+					<li onclick="phome();">Início</li>
+					<li onclick="psobre();">Sobre mim</li>
+					<li onclick="pstrtcode();">Comece a programar</li>
+					<li onclick="ptips();">Dicas</li>
+					<li onclick="ppogs();">POGs</li>
+				<ul>
+			</div>
+			<div id="out" onclick="sidebar();"></div>
+		</left>
+		<div id="right">
+			<div id="home">
+				<h3>Posts do dia</h3>
+				<div id="post">
+					<img src="https://thumbs.dreamstime.com/b/css-html-code-28095139.jpg">
+					<p onclick="postopen('corpo3');">Terceiro post teste</p>
+					<div id="corpo3">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor orci nec mi bibendum laoreet. Integer venenatis, sem et hendrerit dictum, magna quam posuere est, nec gravida neque augue id nisi. Donec et urna ac tellus tincidunt convallis malesuada sit amet est.
+					</div>
+				</div>
+				<div id="post">
+					<img src="https://thumbs.dreamstime.com/b/css-html-code-28095139.jpg">
+					<p onclick="postopen('corpo2');">Segundo post teste</p>
+					<div id="corpo2">
+						Aliquam arcu ipsum, ornare in ornare nec, rutrum quis nisi. Mauris condimentum nulla a aliquam vulputate. Nam accumsan tincidunt arcu ac lobortis. Duis ullamcorper viverra dignissim. Praesent interdum felis nec tortor fringilla ornare. Suspendisse ac feugiat risus. Proin gravida id neque non egestas.
+					</div>
+				</div>
+				<div id="post">
+					<img src="https://thumbs.dreamstime.com/b/css-html-code-28095139.jpg">
+					<p onclick="postopen('corpo');">Primeiro post teste</p>
+					<div id="corpo">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor orci nec mi bibendum laoreet. Integer venenatis, sem et hendrerit dictum, magna quam posuere est, nec gravida neque augue id nisi. Donec et urna ac tellus tincidunt convallis malesuada sit amet est.
+					</div>
+				</div>
+			</div>
+			<div id="sobre">
+				Programador e inventor por hobby e profissão<br>
+				Aprendi a programar por curiosidade em 2005, com uma apostila de VB6 e querendo entender como funcionava o Paint e a Calculadora.
+			</div>
+			<div id="strtcode"></div>
+			<div id="tips"></div>
+			<div id="pogs"></div>
+		
+		</div>
+		<footer></footer>
+	</body>
+</html>

@@ -203,7 +203,7 @@
 				margin-top: auto;
 				margin-bottom: auto;
 				max-height: 19em;
-				max-width: calc(90% - 5em);
+				max-width: calc(100% - 5em);
 			}
 			#galeria .imagem #descimg {
 				background-color: #ffffff;
@@ -440,7 +440,7 @@
 				margin-top: 0.2em;
 				margin-bottom: 0.2em;
 				max-height: 19em;
-				max-width: calc(90% - 5em);
+				max-width: calc(100% - 5em);
 			}
 			#galeria .imagem #descimg {
 				background-color: #ffffff;

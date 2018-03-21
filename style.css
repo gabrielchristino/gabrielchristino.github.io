@@ -76,12 +76,12 @@
 				height: 100%;
 				z-index: -1;
 			}
-			#titulo {
+			#right #home #titulo {
 				font-size: 36px;
 				margin: 0;
 				padding: 0;
 			}
-			#post {
+			#right #home #post {
 				margin-top: 0;
 				width: calc(100% - 0.8em);
 				padding: 0.2em;
@@ -90,7 +90,7 @@
 				margin-bottom: 0.2em;
 				box-shadow: 0 0 0.2em #cccccc;
 			}
-			#post img {
+			#right #home #post img {
 				display: inline-block;
 				width: 25%;
 				min-width: 4em;
@@ -99,11 +99,11 @@
 				vertical-align: middle;
 				margin-bottom: 0.2em;
 			}
-			#post p {
+			#right #home #post p {
 				cursor: pointer;
 				display: inline-block;
 			}
-			#post div {
+			#right #home #post div {
 				display: none;
 			}
 			left {
@@ -126,6 +126,20 @@
 				color: #f4f4f4;
 				font-size: 1em;
 				box-shadow: 0.2em 0 0.2em #cccccc;
+			}
+			left #bar ul {
+				list-style-type: none
+			}
+			left #bar ul li {
+				padding: 0.6em;
+			}
+			left #bar ul li:hover {
+				transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-webkit-transition: all 0.3s ease;
+				background-color: #6070a0;
+				box-shadow: 0 0 0.3em #dddddd;
 			}
 			#sobre #profileimg {
 				display: block;
@@ -198,20 +212,6 @@
 				margin-left: auto;
 				margin-right: auto;
 				height: 2.8em;
-			}
-			ul {
-				list-style-type: none
-			}
-			ul li {
-				padding: 0.6em;
-			}
-			ul li:hover {
-				transition: all 0.3s ease;
-				-o-transition: all 0.3s ease;
-				-moz-transition: all 0.3s ease;
-				-webkit-transition: all 0.3s ease;
-				background-color: #6070a0;
-				box-shadow: 0 0 0.3em #dddddd;
 			}
 			footer {
 				
@@ -299,7 +299,7 @@
 				margin: 0;
 				padding: 0;
 			}
-			#post {
+			#right #home #post {
 				margin-top: 0;
 				width: calc(100% - 0.8em);
 				padding: 0.2em;
@@ -308,10 +308,7 @@
 				margin-bottom: 0.2em;
 				box-shadow: 0 0 0.2em #cccccc;
 			}
-			#btnclosepost {
-				display: none;
-			}
-			#post img {
+			#right #home #post img {
 				display: inline-block;
 				width: 25%;
 				min-width: 4em;
@@ -320,10 +317,10 @@
 				vertical-align: middle;
 				margin-bottom: 0.2em;
 			}
-			#post p {
+			#right #home #post p {
 				display: inline-block;
 			}
-			#post div {
+			#right #home #post div {
 				display: none;
 			}
 			left {
@@ -354,6 +351,20 @@
 				left: 80%;
 				top: 0;
 			}
+			left #bar ul {
+				list-style-type: none
+			}
+			left #bar ul li {
+				padding: 0.6em;
+			}
+			left #bar ul li:hover {
+				transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-webkit-transition: all 0.3s ease;
+				background-color: #6070a0;
+				box-shadow: 0 0 0.3em #dddddd;
+			}
 			#sobre #profileimg {
 				display: block;
 				margin-left: auto;
@@ -373,20 +384,6 @@
 				max-width: 5em;
 				height: auto;
 				margin-bottom: 0.2em;
-			}
-			ul {
-				list-style-type: none
-			}
-			ul li {
-				padding: 0.6em;
-			}
-			ul li:hover {
-				transition: all 0.3s ease;
-				-o-transition: all 0.3s ease;
-				-moz-transition: all 0.3s ease;
-				-webkit-transition: all 0.3s ease;
-				background-color: #6070a0;
-				box-shadow: 0 0 0.3em #dddddd;
 			}
 			footer {
 				

@@ -107,7 +107,7 @@
 				display: none;
 				background-color: #ffffff;
 				box-shadow: 0 0 0.2em #cccccc;
-				position: fixed;
+				position: absolute;
 				width: calc(100% - 0.5em);
 				height: calc(100% - 0.5em);
 				top: 0.3em;

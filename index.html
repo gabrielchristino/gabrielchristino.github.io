@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta lang="pt-BR">
 		<script>
+			var desktop = 0;
 			function inicio() {
 				var isMobile = {
 					Android: function() {
@@ -27,9 +28,11 @@
 				};
 				
 				if( isMobile.any() ) {
+					desktop = 0;
 					document.getElementById('sidebar').style.display = 'none';
 					document.getElementById('btnsidebar').innerText="|||";
 				} else {
+					desktop = 1;
 					document.getElementById('sidebar').style.display = 'block';
 					document.getElementById('out').style.width = '0';
 					document.getElementById('sidebar').style.width = '16%';
@@ -56,7 +59,9 @@
 				document.getElementById('strtcode').style.display = 'none';
 				document.getElementById('tips').style.display = 'none';
 				document.getElementById('pogs').style.display = 'none';
-				sidebar();
+				if ( desktop == 0 ) {
+					sidebar();
+				}
 			}
 			function psobre() {
 				document.getElementById('home').style.display = 'none';
@@ -64,7 +69,9 @@
 				document.getElementById('strtcode').style.display = 'none';
 				document.getElementById('tips').style.display = 'none';
 				document.getElementById('pogs').style.display = 'none';
-				sidebar();
+				if ( desktop == 0 ) {
+					sidebar();
+				}
 			}
 			function pstrtcode() {
 				document.getElementById('home').style.display = 'none';
@@ -72,7 +79,9 @@
 				document.getElementById('strtcode').style.display = 'block';
 				document.getElementById('tips').style.display = 'none';
 				document.getElementById('pogs').style.display = 'none';
-				sidebar();
+				if ( desktop == 0 ) {
+					sidebar();
+				}
 			}
 			function ptips() {
 				document.getElementById('home').style.display = 'none';
@@ -80,7 +89,9 @@
 				document.getElementById('strtcode').style.display = 'none';
 				document.getElementById('tips').style.display = 'block';
 				document.getElementById('pogs').style.display = 'none';
-				sidebar();
+				if ( desktop == 0 ) {
+					sidebar();
+				}
 			}
 			function ppogs() {
 				document.getElementById('home').style.display = 'none';
@@ -88,7 +99,9 @@
 				document.getElementById('strtcode').style.display = 'none';
 				document.getElementById('tips').style.display = 'none';
 				document.getElementById('pogs').style.display = 'block';
-				sidebar();
+				if ( desktop == 0 ) {
+					sidebar();
+				}
 			}
 			function postopen(postagem) {
 				var x = document.getElementById(postagem);

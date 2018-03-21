@@ -203,6 +203,7 @@
 				margin-bottom: 0.2em;
 				height: 19.6em;
 				width: auto;
+				max-width: calc(90% - 5em);
 			}
 			#galeria .imagem #descimg {
 				background-color: #ffffff;
@@ -440,6 +441,7 @@
 				margin-bottom: 0.2em;
 				height: 19.6em;
 				width: auto;
+				max-width: calc(90% - 5em);
 			}
 			#galeria .imagem #descimg {
 				background-color: #ffffff;

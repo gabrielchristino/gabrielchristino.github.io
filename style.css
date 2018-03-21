@@ -200,10 +200,9 @@
 				display: inline-block;
 				margin-left: auto;
 				margin-right: auto;
-				margin-top: 0.2em;
-				margin-bottom: 0.2em;
-				height: 19.6em;
-				width: auto;
+				margin-top: auto;
+				margin-bottom: auto;
+				max-height: 19em;
 				max-width: calc(90% - 5em);
 			}
 			#galeria .imagem #descimg {
@@ -440,8 +439,7 @@
 				margin-right: auto;
 				margin-top: 0.2em;
 				margin-bottom: 0.2em;
-				height: 19.6em;
-				width: auto;
+				max-height: 19em;
 				max-width: calc(90% - 5em);
 			}
 			#galeria .imagem #descimg {

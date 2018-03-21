@@ -1,0 +1,162 @@
+@media only screen and (max-device-width: 480px) {
+			body {
+				font-family: verdana;
+				font-size: 3.5em;
+			}
+			header {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 2.5em;
+				box-shadow: 0 0.2em 0.2em #cccccc;
+				background-color: #405080;
+				color: #f4f4f4;
+				z-index: 3;
+			}
+			header spam {
+				font-size: 1.2em;
+				top: 0.5em;
+				left: 2em;
+				display: inline-block;
+				position: absolute;
+			}
+			header button {
+				position: absolute;
+				font-size: 1.7em;
+				border: none;
+				color: #f4f4f4;
+				background-color: rgba(0, 0, 0, 0);
+				cursor: pointer;
+				display: inline-block;
+				-webkit-appearance: none;
+				left: -0.4em;
+				width: 1.5em;
+				height: 1.5em;
+				transform: rotate(90deg);
+				-o-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				-webkit-transform: rotate(90deg);
+			}
+			#right {
+				position: absolute;
+				width: calc(100% - 0.2em);
+				height: calc(100% - 3em);
+				top: 2.7em;
+				left: 0.2em;
+				z-index: -1;
+				overflow: scroll;
+			}
+			#right #home {
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #sobre {
+				display: none;
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #strtcode {
+				display: none;
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #tips {
+				display: none;
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #pogs {
+				display: none;
+				position: relative;
+				height: 100%;
+				z-index: -1;
+			}
+			#right #h3 {
+				margin: 0;
+				padding: 0;
+			}
+			#post {
+				margin-top: 0;
+				width: calc(100% - 0.8em);
+				padding: 0.2em;
+				padding-bottom: 0;
+				margin-left: 0.1em;
+				margin-bottom: 0.2em;
+				box-shadow: 0 0 0.2em #cccccc;
+			}
+			#post img {
+				display: inline-block;
+				width: 25%;
+				min-width: 4em;
+				max-width: 10em;
+				height: auto;
+				vertical-align: middle;
+				margin-bottom: 0.2em;
+			}
+			#post p {
+				display: inline-block;
+			}
+			#post div {
+				display: none;
+			}
+			left {
+				position: absolute;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
+				left: 0;
+				display: none;
+				background-color: rgba(0, 0, 0, 0.1);
+				z-index: 4;
+			}
+			left #bar {
+				position: absolute;
+				width: 80%;
+				height: 100%;
+				left: 0;
+				top: 0;
+				background-color: #405080;
+				color: #f4f4f4;
+				font-size: 1em;
+				box-shadow: 0.2em 0 0.2em #cccccc;
+			}
+			left #out {
+				position: absolute;
+				width: 20%;
+				height: 100%;
+				left: 80%;
+				top: 0;
+			}
+			#sobre img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 25%;
+				min-width: 4em;
+				max-width: 10em;
+				height: auto;
+				margin-bottom: 0.2em;
+			}
+			ul {
+				list-style-type: none
+			}
+			ul li {
+				padding: 0.6em;
+			}
+			ul li:hover {
+				transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-webkit-transition: all 0.3s ease;
+				background-color: #6070a0;
+				box-shadow: 0 0 0.3em #dddddd;
+			}
+			footer {
+				
+			}
+}

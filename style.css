@@ -154,6 +154,8 @@
 				display: inline-block;
 				cursor: pointer;
 				box-shadow: 0 0 0.3em #dddddd;
+				background-color: #405080;
+				color: #f4f4f4;
 			}
 			.ante {
 				font-size: 2em;
@@ -164,6 +166,8 @@
 				display: inline-block;
 				cursor: pointer;
 				box-shadow: 0 0 0.3em #dddddd;
+				background-color: #405080;
+				color: #f4f4f4;
 			}
 			.sobreimg {
 				display: inline-block;
@@ -395,6 +399,8 @@
 				display: inline-block;
 				cursor: pointer;
 				box-shadow: 0 0 0.3em #dddddd;
+				background-color: #405080;
+				color: #f4f4f4;
 			}
 			.ante {
 				font-size: 2em;
@@ -405,6 +411,8 @@
 				display: inline-block;
 				cursor: pointer;
 				box-shadow: 0 0 0.3em #dddddd;
+				background-color: #405080;
+				color: #f4f4f4;
 			}
 			.sobreimg {
 				display: inline-block;

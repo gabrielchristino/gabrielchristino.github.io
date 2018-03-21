@@ -33,24 +33,19 @@
 					document.getElementById('btnsidebar').innerText="|||";
 				} else {
 					desktop = 1;
-					/*document.getElementById('sidebar').style.display = 'block';
-					document.getElementById('out').style.width = '0';
-					document.getElementById('sidebar').style.width = '16%';
-					document.getElementById('bar').style.width = '100%';
-					document.getElementById('right').style.width = 'calc(84% - 0.5em)';
-					document.getElementById('right').style.left = 'calc(16% + 0.5em)';
-					document.getElementById('btnsidebar').innerText="|||";*/
 				}
 			}
 			
 			function sidebar() {
-				var y = document.getElementById('sidebar');
-					if (y.style.display === 'block') {
-						y.style.display = 'none';
-						document.getElementById('btnsidebar').innerText="|||";
-					} else {
-						y.style.display = 'block';
-						document.getElementById('btnsidebar').innerText="×";
+				if ( desktop == 0 ) {
+					var y = document.getElementById('sidebar');
+						if (y.style.display === 'block') {
+							y.style.display = 'none';
+							document.getElementById('btnsidebar').innerText="|||";
+						} else {
+							y.style.display = 'block';
+							document.getElementById('btnsidebar').innerText="×";
+						}
 					}
 			}
 			function phome() {
@@ -59,9 +54,7 @@
 				document.getElementById('strtcode').style.display = 'none';
 				document.getElementById('tips').style.display = 'none';
 				document.getElementById('pogs').style.display = 'none';
-				if ( desktop == 0 ) {
-					sidebar();
-				}
+				sidebar();
 			}
 			function psobre() {
 				document.getElementById('home').style.display = 'none';
@@ -69,9 +62,7 @@
 				document.getElementById('strtcode').style.display = 'none';
 				document.getElementById('tips').style.display = 'none';
 				document.getElementById('pogs').style.display = 'none';
-				if ( desktop == 0 ) {
-					sidebar();
-				}
+				sidebar();
 			}
 			function pstrtcode() {
 				document.getElementById('home').style.display = 'none';
@@ -79,9 +70,7 @@
 				document.getElementById('strtcode').style.display = 'block';
 				document.getElementById('tips').style.display = 'none';
 				document.getElementById('pogs').style.display = 'none';
-				if ( desktop == 0 ) {
-					sidebar();
-				}
+				sidebar();
 			}
 			function ptips() {
 				document.getElementById('home').style.display = 'none';
@@ -89,9 +78,7 @@
 				document.getElementById('strtcode').style.display = 'none';
 				document.getElementById('tips').style.display = 'block';
 				document.getElementById('pogs').style.display = 'none';
-				if ( desktop == 0 ) {
-					sidebar();
-				}
+				sidebar();
 			}
 			function ppogs() {
 				document.getElementById('home').style.display = 'none';
@@ -99,16 +86,22 @@
 				document.getElementById('strtcode').style.display = 'none';
 				document.getElementById('tips').style.display = 'none';
 				document.getElementById('pogs').style.display = 'block';
-				if ( desktop == 0 ) {
-					sidebar();
-				}
+				sidebar();
 			}
 			function postopen(postagem) {
 				var x = document.getElementById(postagem);
-				if (x.style.display === 'block') {
-					x.style.display = 'none';
+				if ( desktop == 0 ) {
+					if (x.style.display === 'block') {
+						x.style.display = 'none';
+					} else {
+						x.style.display = 'block';
+					}
 				} else {
-					x.style.display = 'block';
+					if (x.style.display === 'inline-block') {
+						x.style.display = 'none';
+					} else {
+						x.style.display = 'inline-block';
+					}
 				}
 			}
 		</script>
@@ -137,21 +130,30 @@
 					<img src="https://thumbs.dreamstime.com/b/css-html-code-28095139.jpg">
 					<p onclick="postopen('corpo3');">Terceiro post teste</p>
 					<div id="corpo3">
+					<spam id="btnclosepost" onclick="postopen('corpo3');">×</spam>
+					<spam class="textopost">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor orci nec mi bibendum laoreet. Integer venenatis, sem et hendrerit dictum, magna quam posuere est, nec gravida neque augue id nisi. Donec et urna ac tellus tincidunt convallis malesuada sit amet est.
+					</spam>
 					</div>
 				</div>
 				<div id="post">
 					<img src="https://thumbs.dreamstime.com/b/css-html-code-28095139.jpg">
 					<p onclick="postopen('corpo2');">Segundo post teste</p>
 					<div id="corpo2">
+					<spam id="btnclosepost" onclick="postopen('corpo2');">×</spam>
+					<spam class="textopost">
 						Aliquam arcu ipsum, ornare in ornare nec, rutrum quis nisi. Mauris condimentum nulla a aliquam vulputate. Nam accumsan tincidunt arcu ac lobortis. Duis ullamcorper viverra dignissim. Praesent interdum felis nec tortor fringilla ornare. Suspendisse ac feugiat risus. Proin gravida id neque non egestas.
+					</spam>
 					</div>
 				</div>
 				<div id="post">
 					<img src="https://thumbs.dreamstime.com/b/css-html-code-28095139.jpg">
 					<p onclick="postopen('corpo');">Primeiro post teste</p>
 					<div id="corpo">
+					<spam id="btnclosepost" onclick="postopen('corpo');">×</spam>
+					<spam class="textopost">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porttitor orci nec mi bibendum laoreet. Integer venenatis, sem et hendrerit dictum, magna quam posuere est, nec gravida neque augue id nisi. Donec et urna ac tellus tincidunt convallis malesuada sit amet est.
+					</spam>
 					</div>
 				</div>
 			</div>

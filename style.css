@@ -1,7 +1,7 @@
 @media only screen and (min-device-width: 480px) {
 			body {
 				font-family: verdana;
-				font-size: 20px;
+				font-size: 16px;
 			}
 			header {
 				position: absolute;
@@ -100,6 +100,7 @@
 				margin-bottom: 0.2em;
 			}
 			#right #home #post p {
+				font-size: 20px;
 				cursor: pointer;
 				display: inline-block;
 			}

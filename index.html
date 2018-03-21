@@ -104,6 +104,21 @@
 					}
 				}
 			}
+			
+			function fprox(numero) {
+				numfoto = "img" + numero;
+				document.getElementById(numfoto).style.display = 'inline-block';
+				numero = numero - 1;
+				numfoto = "img" + numero;
+				document.getElementById(numfoto).style.display = 'none';
+			}
+			function fante(numero) {
+				numfoto = "img" + numero;
+				document.getElementById(numfoto).style.display = 'inline-block';
+				numero = numero + 1;
+				numfoto = "img" + numero;
+				document.getElementById(numfoto).style.display = 'none';
+			}
 		</script>
 		<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 480px)" href="style.css" />
 		<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="style.css" />
@@ -153,7 +168,28 @@
 				Aprendi a programar por curiosidade em 2005, com uma apostila de VB6 e querendo entender como funcionava o Paint e a Calculadora.<br>
 				Hoje trabalho com VB, Python, Java, C++ e na parte Web com HTML, CSS, JS, PHP e MySQL.<br>
 				Com Arduino montei alguns protótipos de smartwatch (o projeto atual utiliza um ESP32 32F, com bluetooth e WiFi), um Jipe controlado via bluetooth do celular.<br>
-				<img src="./img/chronusclock1.jpg" class="sobreimg"><img src="./img/chronusclock2.jpg" class="sobreimg">
+				<div id="galeria">
+					<div id="img1" class="imagem">
+							<div class="ante">«</div>
+						<img src="./img/chronusclock1.jpg" class="sobreimg">
+							<div class="prox" onclick="fprox(2);">»</div>
+					</div>
+					<div id="img2" class="imagem">
+							<div class="ante" onclick="fante(1);">«</div>
+						<img src="./img/chronusclock2.jpg" class="sobreimg">
+							<div class="prox" onclick="fprox(3);">»</div>
+					</div>
+					<div id="img3" class="imagem">
+							<div class="ante" onclick="fante(2);">«</div>
+						<img src="./img/chronusclock1.jpg" class="sobreimg">
+							<div class="prox" onclick="fprox(4);">»</div>
+					</div>
+					<div id="img4" class="imagem">
+							<div class="ante" onclick="fante(3);">«</div>
+						<img src="./img/chronusclock2.jpg" class="sobreimg">
+							<div class="prox">»</div>
+					</div>
+				</div>
 			</div>
 			<div id="strtcode"></div>
 			<div id="tips"></div>

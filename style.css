@@ -223,6 +223,9 @@
 				font-family: verdana;
 				font-size: 3.5em;
 			}
+			i {
+				font-size: 5em;
+			}
 			header {
 				position: absolute;
 				top: 0;

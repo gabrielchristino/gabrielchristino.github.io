@@ -130,6 +130,8 @@
 			}
 			left #bar ul {
 				list-style-type: none
+				margin: 0;
+				padding: 0;
 			}
 			left #bar ul li {
 				padding: 0.6em;

@@ -129,11 +129,11 @@
 				box-shadow: 0.2em 0 0.2em #cccccc;
 			}
 			left #bar ul {
-				left: -1em;
 				list-style-type: none
 			}
 			left #bar ul li {
 				padding: 0.6em;
+				left: -1em;
 			}
 			left #bar ul li:hover {
 				transition: all 0.3s ease;

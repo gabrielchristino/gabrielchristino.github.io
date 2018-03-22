@@ -133,7 +133,7 @@
 			}
 			left #bar ul li {
 				padding: 0.6em;
-				left: -1em;
+				padding-left: 0;
 			}
 			left #bar ul li:hover {
 				transition: all 0.3s ease;

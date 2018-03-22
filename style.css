@@ -129,8 +129,8 @@
 				box-shadow: 0.2em 0 0.2em #cccccc;
 			}
 			left #bar ul {
-				list-style-type: none
 				left: -1em;
+				list-style-type: none
 			}
 			left #bar ul li {
 				padding: 0.6em;

@@ -52,7 +52,7 @@
 			#right {
 				position: absolute;
 				width: calc(87% - 0.1em);
-				height: calc(100% - 2.5em);
+				height: calc(100% - 2.7em);
 				top: 2.7em;
 				left: calc(13% + 0.1em);
 				z-index: -1;

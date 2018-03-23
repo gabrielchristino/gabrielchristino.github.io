@@ -50,6 +50,11 @@
 				-webkit-transform: rotate(90deg);
 			}
 			#right {
+				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: repeat;
+				background-size: cover;
 				position: absolute;
 				width: 87%;
 				height: calc(100% - 2.5em);
@@ -352,6 +357,11 @@
 				-webkit-transform: rotate(90deg);
 			}
 			#right {
+				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: repeat;
+				background-size: cover;
 				position: absolute;
 				width: 100%;
 				height: calc(100% - 2.5em);

@@ -406,10 +406,12 @@
 				z-index: -1;
 			}
 			#titulo {
+				background-color: #ffffff;
 				margin: 0;
 				padding: 0;
 			}
 			#right #home #post {
+				background-color: #ffffff;
 				margin-top: 0;
 				width: calc(100% - 0.8em);
 				padding: 0.2em;

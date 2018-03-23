@@ -111,7 +111,7 @@
 			#right #home #post spam {
 				float: right;
 				top: 0;
-				right: 0;
+				right: 0.1em;
 				display: block;
 				font-weight: normal;
 				font-size: 14px;
@@ -323,6 +323,14 @@
 				margin-left: 0.1em;
 				margin-bottom: 0.2em;
 				box-shadow: 0 0 0.2em #cccccc;
+			}
+			#right #home #post spam {
+				float: right;
+				top: 0;
+				right: 0.1em;
+				display: block;
+				font-weight: normal;
+				font-size: 0.7em;
 			}
 			#right #home #post img {
 				display: inline-block;

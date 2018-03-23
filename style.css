@@ -87,7 +87,6 @@
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				height: 100%;
 				z-index: 100;
 			}
 			#right #strtcode {

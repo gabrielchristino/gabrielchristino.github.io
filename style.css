@@ -83,11 +83,11 @@
 			}
 			#right #home #post {
 				margin-top: 0;
-				width: calc(100% - 2em);
+				width: calc(100% - 4em);
 				padding: 0.2em;
 				padding-bottom: 0.3em;
-				margin-left: 0.5em;
-				margin-right: 0.5em;
+				margin-left: 1.5em;
+				margin-right: 1.5em;
 				margin-bottom: 1em;
 				box-shadow: 0 0 0.2em #cccccc;
 			}
@@ -98,7 +98,9 @@
 				max-width: 9em;
 				height: auto;
 				vertical-align: middle;
-				margin-bottom: 0.2em;
+				margin-bottom: 0.8em;
+				margin-top: 0.8em;
+				margin-left: 0.8em;
 			}
 			#right #home #post p {
 				margin-left: 0.8em;

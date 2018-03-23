@@ -121,6 +121,7 @@
 				margin-top: 0.8em;
 			}
 			#right #home #post p {
+				background-color: rgba(0, 0, 0, 0);
 				margin-left: 0.8em;
 				font-size: 20px;
 				cursor: pointer;
@@ -136,6 +137,7 @@
 			}
 			#right #home #post div {
 				display: none;
+				background-color: rgba(0, 0, 0, 0);
 			}
 			left {
 				position: absolute;

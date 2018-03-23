@@ -327,7 +327,7 @@
 			#right #home #post spam {
 				float: right;
 				top: 0;
-				right: 0.1em;
+				right: 0.2em;
 				display: block;
 				font-weight: normal;
 				font-size: 0.7em;
@@ -343,6 +343,8 @@
 				top: -0.3em;
 			}
 			#right #home #post p {
+				float: right;
+				right: 0.3em;
 				display: block;
 				font-weight: bold;
 			}

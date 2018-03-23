@@ -131,7 +131,7 @@
 				padding: 0;
 				margin-left: 1.5em;
 				margin-bottom: 0.1em;
-				width: calc(100% - 4em);
+				width: calc(100% - 2em);
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #home #post {

@@ -343,7 +343,7 @@
 				top: -0.3em;
 			}
 			#right #home #post p {
-				display: inline-block;
+				display: block;
 				font-weight: bold;
 			}
 			#right #home #post div {

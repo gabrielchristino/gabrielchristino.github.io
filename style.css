@@ -99,7 +99,17 @@
 				padding: 0;
 			}
 			#right #home #post {
-				background-color: rgba(0, 0, 0, 0);
+				
+			    /* The image used */
+			    background-image: url("./img_parallax.jpg");
+			    /* Set a specific height */
+			    min-height: 100px; 
+
+			    /* Create the parallax scrolling effect */
+			    background-attachment: fixed;
+			    background-position: center;
+			    background-repeat: no-repeat;
+			    background-size: cover;
 				margin-top: 0;
 				width: calc(100% - 4em);
 				padding: 0.2em;

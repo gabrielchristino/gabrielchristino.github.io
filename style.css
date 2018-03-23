@@ -1,12 +1,14 @@
 @media only screen and (min-device-width: 480px) {
 			.parallax {
 				background-image: url("./img_parallax.jpg");
-				min-height: 100px;
+				min-height: calc(100% - 3em);
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				
+				z-index: -10;
+				position: absolute;
+				top: 3em;
 			}
 			body {
 				font-family: verdana;
@@ -48,13 +50,6 @@
 				-webkit-transform: rotate(90deg);
 			}
 			#right {
-				background-image: url("./img_parallax.jpg");
-				min-height: calc(100% - 3em);
-				background-attachment: fixed;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				
 				position: absolute;
 				width: calc(87% - 0.5em);
 				height: calc(100% - 3em);

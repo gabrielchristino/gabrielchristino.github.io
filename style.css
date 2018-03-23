@@ -7,8 +7,8 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				
-				background-filter: sepia(60%);
-				background-filter:blur(1px);
+				filter: sepia(60%);
+				filter:blur(1px);
 			}
 			body {
 				font-family: verdana;
@@ -117,10 +117,10 @@
 				font-size: 36px;
 				background-color: #ffffff;
 				margin-top: 0;
-				width: calc(100% - 3em);
+				width: calc(100% - 2em);
 				padding: 0.2em;
 				padding-bottom: 0.3em;
-				margin-left: 1.5em;
+				margin-left: 1em;
 				margin-right: 1.5em;
 				margin-bottom: 0.1em;
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);

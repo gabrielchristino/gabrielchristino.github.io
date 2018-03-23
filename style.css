@@ -119,6 +119,17 @@
 				height: 100%;
 				z-index: -1;
 			}
+			#right #sobre #post {
+				background-color: #ffffff;
+				margin-top: 0;
+				width: calc(100% - 4em);
+				padding: 0.2em;
+				padding-bottom: 0.3em;
+				margin-left: 1.5em;
+				margin-right: 1.5em;
+				margin-bottom: 1em;
+				box-shadow: 0 0 0.2em #cccccc;
+			}
 			#right #home #titulo {
 				background-color: #ffffff;
 				font-size: 36px;

@@ -53,6 +53,8 @@
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
+				-webkit-filter: sepia(100%);
+				filter: sepia(100%);
 				
 				position: absolute;
 				width: calc(87% - 0.5em);

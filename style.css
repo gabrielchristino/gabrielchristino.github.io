@@ -7,8 +7,8 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				
-				filter: sepia(60%);
-				filter:blur(1px);
+				
+				
 			}
 			body {
 				font-family: verdana;
@@ -70,9 +70,9 @@
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
-				-webkit-filter: sepia(0);
-				filter: sepia(0);
-				filter:blur(0);
+				
+				
+				
 				
 				background-color: rgba(0, 0, 0, 0);
 				position: relative;
@@ -84,9 +84,9 @@
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
-				-webkit-filter: sepia(0);
-				filter: sepia(0);
-				filter:blur(0);
+				
+				
+				
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -99,9 +99,9 @@
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
-				-webkit-filter: sepia(0);
-				filter: sepia(0);
-				filter:blur(0);
+				
+				
+				
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -114,9 +114,9 @@
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
-				-webkit-filter: sepia(0);
-				filter: sepia(0);
-				filter:blur(0);
+				
+				
+				
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -129,9 +129,9 @@
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
-				-webkit-filter: sepia(0);
-				filter: sepia(0);
-				filter:blur(0);
+				
+				
+				
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;

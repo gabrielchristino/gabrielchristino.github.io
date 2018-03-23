@@ -57,6 +57,7 @@
 				left: calc(13% + 0.5em);
 				z-index: -1;
 				overflow-y: scroll;
+				background-color: rgba(0, 0, 0, 0);
 			}
 			#right #home {
 				-webkit-filter: sepia(0);

@@ -6,6 +6,9 @@
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
+				
+				background-filter: sepia(60%);
+				background-filter:blur(1px);
 			}
 			body {
 				font-family: verdana;

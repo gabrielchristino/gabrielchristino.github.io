@@ -85,9 +85,10 @@
 				margin-top: 0;
 				width: calc(100% - 0.8em);
 				padding: 0.2em;
-				padding-bottom: 0;
-				margin-left: 0.1em;
-				margin-bottom: 0.2em;
+				padding-bottom: 0.3em;
+				margin-left: 0.5em;
+				margin-right: 0.5em;
+				margin-bottom: 1em;
 				box-shadow: 0 0 0.2em #cccccc;
 			}
 			#right #home #post img {

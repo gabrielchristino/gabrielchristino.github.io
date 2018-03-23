@@ -108,6 +108,14 @@
 				cursor: pointer;
 				display: inline-block;
 			}
+			#right #home #post spam {
+				float: right;
+				top: 0;
+				right: 0;
+				display: block;
+				font-weight: normal;
+				font-size: 14px;
+			}
 			#right #home #post div {
 				display: none;
 			}
@@ -328,6 +336,7 @@
 			}
 			#right #home #post p {
 				display: inline-block;
+				font-weight: bold;
 			}
 			#right #home #post div {
 				display: none;

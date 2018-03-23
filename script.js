@@ -23,7 +23,7 @@
 				
 				if( isMobile.any() ) {
 					desktop = 0;
-					document.getElementById('sidebar').style.display = 'none';
+					//document.getElementById('sidebar').style.display = 'none';
 					document.getElementById('btnsidebar').innerText="|||";
 				} else {
 					desktop = 1;

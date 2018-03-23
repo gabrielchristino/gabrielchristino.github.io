@@ -64,7 +64,7 @@
 				min-height: calc(100% - 3em);
 				background-attachment: fixed;
 				background-position: center;
-				background-repeat: no-repeat;
+				background-repeat: repeat;
 				background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
@@ -375,7 +375,7 @@
 				min-height: calc(100% - 3em);
 				background-attachment: fixed;
 				background-position: center;
-				background-repeat: no-repeat;
+				background-repeat: repeat;
 				background-size: cover;
 				position: relative;
 				height: 100%;

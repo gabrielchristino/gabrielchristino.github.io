@@ -57,7 +57,7 @@
 			}
 			#right #home {
 				background-image: url("./img_parallax.jpg");
-				min-height: 100px;
+				min-height: 100%;
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -96,11 +96,13 @@
 				z-index: -1;
 			}
 			#right #home #titulo {
+				background-color: #ffffff;
 				font-size: 36px;
 				margin: 0;
 				padding: 0;
 			}
 			#right #home #post {
+				background-color: #ffffff;
 				margin-top: 0;
 				width: calc(100% - 4em);
 				padding: 0.2em;

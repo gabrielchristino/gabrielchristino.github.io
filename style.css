@@ -66,9 +66,9 @@
 				overflow-y: scroll;
 			}
 			#right #home {
-				-webkit-filter: sepia(0%);
-				filter: sepia(0%);
-				filter:blur(0px);
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				position: relative;
@@ -76,9 +76,9 @@
 				z-index: -1;
 			}
 			#right #sobre {
-				-webkit-filter: sepia(0%);
-				filter: sepia(0%);
-				filter:blur(0px);
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -87,9 +87,9 @@
 				z-index: -1;
 			}
 			#right #strtcode {
-				-webkit-filter: sepia(0%);
-				filter: sepia(0%);
-				filter:blur(0px);
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -98,9 +98,9 @@
 				z-index: -1;
 			}
 			#right #tips {
-				-webkit-filter: sepia(0%);
-				filter: sepia(0%);
-				filter:blur(0px);
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -109,9 +109,9 @@
 				z-index: -1;
 			}
 			#right #pogs {
-				-webkit-filter: sepia(0%);
-				filter: sepia(0%);
-				filter:blur(0px);
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;

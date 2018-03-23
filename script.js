@@ -31,7 +31,7 @@
 			}
 			
 			function sidebar() {
-				//if ( desktop == 0 || desktop == 1 ) {
+				if ( desktop == 0 ) {
 					var y = document.getElementById('sidebar');
 						if (y.style.display === 'block') {
 							y.style.display = 'none';
@@ -40,7 +40,7 @@
 							y.style.display = 'block';
 							document.getElementById('btnsidebar').innerText="×";
 						}
-					//}
+					}
 			}
 			function phome() {
 				document.getElementById('home').style.display = 'block';

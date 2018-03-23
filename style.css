@@ -371,6 +371,12 @@
 				overflow: scroll;
 			}
 			#right #home {
+				background-image: url("./img_parallax.jpg");
+				min-height: calc(100% - 3em);
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
 				position: relative;
 				height: 100%;
 				z-index: -1;

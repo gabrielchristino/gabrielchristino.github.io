@@ -97,7 +97,7 @@
 				min-width: 4em;
 				max-width: 7em;
 				height: auto;
-				vertical-align: middle;
+				vertical-align: baseline;
 				margin-bottom: 0.2em;
 			}
 			#right #home #post p {
@@ -319,7 +319,7 @@
 				min-width: 4em;
 				max-width: 10em;
 				height: auto;
-				vertical-align: middle;
+				vertical-align: baseline;
 				margin-bottom: 0.2em;
 			}
 			#right #home #post p {

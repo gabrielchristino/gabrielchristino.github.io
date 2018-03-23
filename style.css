@@ -83,7 +83,7 @@
 			}
 			#right #home #post {
 				margin-top: 0;
-				width: calc(100% - 1em);
+				width: calc(100% - 2em);
 				padding: 0.2em;
 				padding-bottom: 0.3em;
 				margin-left: 0.5em;

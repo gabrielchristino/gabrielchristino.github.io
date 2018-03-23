@@ -100,6 +100,7 @@
 				vertical-align: middle;
 				margin-bottom: 0.8em;
 				margin-left: 0.8em;
+				top: 0.8em;
 			}
 			#right #home #post p {
 				margin-left: 0.8em;
@@ -323,8 +324,7 @@
 				height: auto;
 				vertical-align: middle;
 				margin-bottom: 0.2em;
-				padding-top: -0.3em;
-				margin-bottom: 0;
+				top: -0.3em;
 			}
 			#right #home #post p {
 				display: inline-block;

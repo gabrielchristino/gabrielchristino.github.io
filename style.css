@@ -6,6 +6,7 @@
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
+				
 			}
 			body {
 				font-family: verdana;
@@ -128,10 +129,12 @@
 				box-shadow: 0 0 0.2em #cccccc;
 			}
 			#right #home #titulo {
+				width: calc(80% - 4em);
 				background-color: rgba(255, 255, 255, 0.8);
 				font-size: 36px;
 				margin: 0;
 				padding: 0;
+				margin-left: 1.5em;
 			}
 			#right #home #post {
 				background-color: #ffffff;

@@ -80,7 +80,7 @@
 				min-height: calc(100% - 3em);
 				background-attachment: fixed;
 				background-position: center;
-				background-repeat: no-repeat;
+				background-repeat: repeat;
 				background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
@@ -97,7 +97,7 @@
 				min-height: calc(100% - 3em);
 				background-attachment: fixed;
 				background-position: center;
-				background-repeat: no-repeat;
+				background-repeat: repeat;
 				background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
@@ -114,7 +114,7 @@
 				min-height: calc(100% - 3em);
 				background-attachment: fixed;
 				background-position: center;
-				background-repeat: no-repeat;
+				background-repeat: repeat;
 				background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
@@ -131,7 +131,7 @@
 				min-height: calc(100% - 3em);
 				background-attachment: fixed;
 				background-position: center;
-				background-repeat: no-repeat;
+				background-repeat: repeat;
 				background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
@@ -382,30 +382,57 @@
 				z-index: -1;
 			}
 			#right #sobre {
+				background-image: url("./img_parallax.jpg");
+				min-height: calc(100% - 3em);
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: repeat;
+				background-size: cover;
 				display: none;
 				position: relative;
 				height: 100%;
 				z-index: -1;
 			}
 			#right #strtcode {
+				background-image: url("./img_parallax.jpg");
+				min-height: calc(100% - 3em);
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: repeat;
+				background-size: cover;
 				display: none;
 				position: relative;
 				height: 100%;
 				z-index: -1;
 			}
 			#right #tips {
+				background-image: url("./img_parallax.jpg");
+				min-height: calc(100% - 3em);
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: repeat;
+				background-size: cover;
 				display: none;
 				position: relative;
 				height: 100%;
 				z-index: -1;
 			}
 			#right #pogs {
+				background-image: url("./img_parallax.jpg");
+				min-height: calc(100% - 3em);
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: repeat;
+				background-size: cover;
 				display: none;
 				position: relative;
 				height: 100%;
 				z-index: -1;
 			}
-			#titulo {
+			#right #sobre #post {
+				background-color: #ffffff;
+			}
+			#right #home #titulo {
 				background-color: #ffffff;
 				margin: 0;
 				padding: 0;

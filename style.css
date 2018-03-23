@@ -71,7 +71,6 @@
 				
 				background-color: rgba(0, 0, 0, 0);
 				position: relative;
-				height: 100%;
 				z-index: 100;
 			}
 			#right #sobre {
@@ -102,7 +101,6 @@
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				height: 100%;
 				z-index: 100;
 			}
 			#right #tips {
@@ -118,7 +116,6 @@
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				height: 100%;
 				z-index: 100;
 			}
 			#right #pogs {
@@ -134,7 +131,6 @@
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				height: 100%;
 				z-index: 100;
 			}
 			#right #home #titulo {
@@ -371,7 +367,6 @@
 				background-repeat: repeat;
 				background-size: cover;
 				position: relative;
-				height: 100%;
 				z-index: -1;
 			}
 			#right #sobre {
@@ -382,7 +377,6 @@
 				background-size: cover;
 				display: none;
 				position: relative;
-				height: 100%;
 				z-index: -1;
 			}
 			#right #strtcode {
@@ -393,7 +387,6 @@
 				background-size: cover;
 				display: none;
 				position: relative;
-				height: 100%;
 				z-index: -1;
 			}
 			#right #tips {
@@ -404,7 +397,6 @@
 				background-size: cover;
 				display: none;
 				position: relative;
-				height: 100%;
 				z-index: -1;
 			}
 			#right #pogs {
@@ -415,7 +407,6 @@
 				background-size: cover;
 				display: none;
 				position: relative;
-				height: 100%;
 				z-index: -1;
 			}
 			#right #sobre #post {

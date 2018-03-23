@@ -52,7 +52,7 @@
 			#right {
 				position: absolute;
 				width: calc(87% - 0.1em);
-				height: calc(100% - 2.7em);
+				height: calc(100% - 3em);
 				top: 2.7em;
 				left: calc(13% + 0.1em);
 				z-index: -1;
@@ -363,10 +363,10 @@
 			}
 			#right {
 				position: absolute;
-				width: calc(100% - 0.2em);
+				width: calc(100% - 0.1em);
 				height: calc(100% - 3em);
 				top: 2.7em;
-				left: 0.2em;
+				left: 0.1em;
 				z-index: -1;
 				overflow: scroll;
 			}

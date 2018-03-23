@@ -20,7 +20,7 @@
 				left: 0;
 				width: 100%;
 				height: 2.5em;
-				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
+				
 				background-color: #405080;
 				color: #f4f4f4;
 				z-index: 3;
@@ -148,7 +148,7 @@
 				margin-left: 0.65em;
 				margin-right: 1.5em;
 				margin-bottom: 0.1em;
-				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
+				
 			}
 			#right #sobre #post {
 				background-color: #ffffff;
@@ -159,7 +159,7 @@
 				margin-left: 1.5em;
 				margin-right: 1.5em;
 				margin-bottom: 1em;
-				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
+				
 			}
 			#right #home #post {
 				background-color: #ffffff;
@@ -170,7 +170,7 @@
 				margin-left: 1.5em;
 				margin-right: 1.5em;
 				margin-bottom: 1em;
-				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
+				
 			}
 			#right #home #post img {
 				display: inline-block;
@@ -221,7 +221,7 @@
 				background-color: #405080;
 				color: #f4f4f4;
 				font-size: 1em;
-				box-shadow: 0.2em 0 0.2em rgba(204, 204, 204, 0.4);
+				
 			}
 			left #bar ul {
 				list-style-type: none
@@ -238,7 +238,7 @@
 				-moz-transition: all 0.3s ease;
 				-webkit-transition: all 0.3s ease;
 				background-color: #6070a0;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 			}
 			#sobre #profileimg {
 				display: block;
@@ -252,7 +252,7 @@
 			}
 			#galeria {
 				background-color: #ffffff;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 				text-align: center;
 				display: block;
 				margin-left: auto;
@@ -278,7 +278,7 @@
 				height: 23em;
 				display: inline-block;
 				cursor: pointer;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 				background-color: #405080;
 				color: #f4f4f4;
 			}
@@ -290,7 +290,7 @@
 				height: 20em;
 				display: inline-block;
 				cursor: pointer;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 				background-color: #405080;
 				color: #f4f4f4;
 			}
@@ -305,7 +305,7 @@
 			}
 			#galeria .imagem #descimg {
 				background-color: #ffffff;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 				width: calc(98% - 3em);
 				display: block;
 				margin-left: auto;
@@ -327,7 +327,7 @@
 				left: 0;
 				width: 100%;
 				height: 2.5em;
-				box-shadow: 0 0.2em 0.2em #cccccc;
+				
 				background-color: #405080;
 				color: #f4f4f4;
 				z-index: 3;
@@ -427,7 +427,7 @@
 				padding-bottom: 0;
 				margin-left: 0.2em;
 				margin-bottom: 0.2em;
-				box-shadow: 0 0 0.2em #cccccc;
+				
 			}
 			#right #home #titulo {
 				background-color: #ffffff;
@@ -437,7 +437,7 @@
 				padding-bottom: 0;
 				margin-left: 0.2em;
 				margin-bottom: 0.1em;
-				box-shadow: 0 0 0.2em #cccccc;
+				
 			}
 			#right #home #post {
 				background-color: #ffffff;
@@ -447,7 +447,7 @@
 				padding-bottom: 0;
 				margin-left: 0.2em;
 				margin-bottom: 0.2em;
-				box-shadow: 0 0 0.2em #cccccc;
+				
 			}
 			#right #home #post spam {
 				float: right;
@@ -496,7 +496,7 @@
 				background-color: #405080;
 				color: #f4f4f4;
 				font-size: 1em;
-				box-shadow: 0.2em 0 0.2em #cccccc;
+				
 			}
 			left #out {
 				position: absolute;
@@ -520,7 +520,7 @@
 				-moz-transition: all 0.3s ease;
 				-webkit-transition: all 0.3s ease;
 				background-color: #6070a0;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 			}
 			#sobre #profileimg {
 				display: block;
@@ -547,7 +547,7 @@
 			}
 			#galeria {
 				background-color: #ffffff;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 				text-align: center;
 				display: block;
 				margin-left: auto;
@@ -573,7 +573,7 @@
 				height: 23em;
 				display: inline-block;
 				cursor: pointer;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 				background-color: #405080;
 				color: #f4f4f4;
 			}
@@ -585,7 +585,7 @@
 				height: 20em;
 				display: inline-block;
 				cursor: pointer;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 				background-color: #405080;
 				color: #f4f4f4;
 			}
@@ -600,7 +600,7 @@
 			}
 			#galeria .imagem #descimg {
 				background-color: #ffffff;
-				box-shadow: 0 0 0.3em #dddddd;
+				
 				width: calc(98% - 3em);
 				display: block;
 				margin-left: auto;

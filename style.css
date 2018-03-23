@@ -431,6 +431,13 @@
 			}
 			#right #sobre #post {
 				background-color: #ffffff;
+				margin-top: 0;
+				width: calc(100% - 0.8em);
+				padding: 0.2em;
+				padding-bottom: 0;
+				margin-left: 0.1em;
+				margin-bottom: 0.2em;
+				box-shadow: 0 0 0.2em #cccccc;
 			}
 			#right #home #titulo {
 				background-color: #ffffff;

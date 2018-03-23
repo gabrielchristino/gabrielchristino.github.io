@@ -2,8 +2,6 @@
 			.parallax {
 			    /* The image used */
 			    background-image: url("./img_parallax.jpg");
-			    -webkit-filter: sepia(100%);
-			    filter: sepia(100%);
 			    /* Set a specific height */
 			    min-height: 500px; 
 

@@ -6,9 +6,6 @@
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				z-index: -10;
-				position: absolute;
-				top: 3em;
 			}
 			body {
 				font-family: verdana;
@@ -117,12 +114,12 @@
 				font-size: 36px;
 				background-color: #ffffff;
 				margin-top: 0;
-				width: calc(100% - 4em);
+				width: calc(100% - 2em);
 				padding: 0.2em;
 				padding-bottom: 0.3em;
 				margin-left: 1.5em;
 				margin-right: 1.5em;
-				margin-bottom: 1em;
+				margin-bottom: 0.1em;
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #sobre #post {

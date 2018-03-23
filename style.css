@@ -339,7 +339,7 @@
 				max-width: 10em;
 				height: auto;
 				vertical-align: middle;
-				margin-bottom: 0.2em;
+				margin-bottom: 0.5em;
 				top: -0.3em;
 			}
 			#right #home #post p {
@@ -347,6 +347,7 @@
 				right: 0.3em;
 				display: block;
 				font-weight: bold;
+				margin-bottom: 0.5em;
 			}
 			#right #home #post div {
 				display: none;

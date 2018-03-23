@@ -31,7 +31,7 @@
 			}
 			
 			function sidebar() {
-				if ( desktop == 0 ) {
+				if ( desktop == 0 || desktop == 1 ) {
 					var y = document.getElementById('sidebar');
 						if (y.style.display === 'block') {
 							y.style.display = 'none';

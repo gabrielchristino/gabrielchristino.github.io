@@ -5,7 +5,7 @@
 			    -webkit-filter: sepia(100%);
 			    filter: sepia(100%);
 			    /* Set a specific height */
-			    min-height: 100%; 
+			    min-height: 500px; 
 
 			    /* Create the parallax scrolling effect */
 			    background-attachment: fixed;

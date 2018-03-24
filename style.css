@@ -7,8 +7,8 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				
-				
-				
+				filter: sepia(60%);
+				filter:blur(1px);
 			}
 			body {
 				font-family: verdana;
@@ -20,7 +20,7 @@
 				left: 0;
 				width: 100%;
 				height: 2.5em;
-				
+				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
 				background-color: #405080;
 				color: #f4f4f4;
 				z-index: 3;
@@ -62,9 +62,6 @@
 				left: 13%;
 				z-index: -1;
 				overflow-y: scroll;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
 				background-color: rgba(0, 0, 0, 0);
 			}
 			#right #home {
@@ -73,12 +70,9 @@ box-sizing: border-box;
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-				
-				
-				
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				position: relative;
@@ -90,12 +84,9 @@ box-sizing: border-box;
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-				
-				
-				
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -108,12 +99,9 @@ box-sizing: border-box;
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-				
-				
-				
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -126,12 +114,9 @@ box-sizing: border-box;
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-				
-				
-				
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -144,12 +129,9 @@ box-sizing: border-box;
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-				
-				
-				
+				-webkit-filter: sepia(0);
+				filter: sepia(0);
+				filter:blur(0);
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -166,7 +148,7 @@ box-sizing: border-box;
 				margin-left: 0.65em;
 				margin-right: 1.5em;
 				margin-bottom: 0.1em;
-				
+				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #sobre #post {
 				background-color: #ffffff;
@@ -177,7 +159,7 @@ box-sizing: border-box;
 				margin-left: 1.5em;
 				margin-right: 1.5em;
 				margin-bottom: 1em;
-				
+				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #home #post {
 				background-color: #ffffff;
@@ -188,7 +170,7 @@ box-sizing: border-box;
 				margin-left: 1.5em;
 				margin-right: 1.5em;
 				margin-bottom: 1em;
-				
+				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #home #post img {
 				display: inline-block;
@@ -239,7 +221,7 @@ box-sizing: border-box;
 				background-color: #405080;
 				color: #f4f4f4;
 				font-size: 1em;
-				
+				box-shadow: 0.2em 0 0.2em rgba(204, 204, 204, 0.4);
 			}
 			left #bar ul {
 				list-style-type: none
@@ -249,6 +231,7 @@ box-sizing: border-box;
 			left #bar ul li {
 				padding: 0.6em;
 				padding-left: 0;
+				cursor: pointer;
 			}
 			left #bar ul li:hover {
 				transition: all 0.3s ease;
@@ -256,7 +239,7 @@ box-sizing: border-box;
 				-moz-transition: all 0.3s ease;
 				-webkit-transition: all 0.3s ease;
 				background-color: #6070a0;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 			}
 			#sobre #profileimg {
 				display: block;
@@ -270,7 +253,7 @@ box-sizing: border-box;
 			}
 			#galeria {
 				background-color: #ffffff;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 				text-align: center;
 				display: block;
 				margin-left: auto;
@@ -296,7 +279,7 @@ box-sizing: border-box;
 				height: 23em;
 				display: inline-block;
 				cursor: pointer;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 				background-color: #405080;
 				color: #f4f4f4;
 			}
@@ -308,7 +291,7 @@ box-sizing: border-box;
 				height: 20em;
 				display: inline-block;
 				cursor: pointer;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 				background-color: #405080;
 				color: #f4f4f4;
 			}
@@ -323,7 +306,7 @@ box-sizing: border-box;
 			}
 			#galeria .imagem #descimg {
 				background-color: #ffffff;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 				width: calc(98% - 3em);
 				display: block;
 				margin-left: auto;
@@ -345,7 +328,7 @@ box-sizing: border-box;
 				left: 0;
 				width: 100%;
 				height: 2.5em;
-				
+				box-shadow: 0 0.2em 0.2em #cccccc;
 				background-color: #405080;
 				color: #f4f4f4;
 				z-index: 3;
@@ -387,10 +370,6 @@ box-sizing: border-box;
 				left: 0;
 				z-index: -1;
 				overflow: scroll;
-				overflow-y: scroll;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
 			}
 			#right #home {
 				background-image: url("./img_parallax.jpg");
@@ -400,9 +379,6 @@ box-sizing: border-box;
 				background-size: cover;
 				position: relative;
 				z-index: -1;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
 			}
 			#right #sobre {
 				background-image: url("./img_parallax.jpg");
@@ -413,9 +389,6 @@ box-sizing: border-box;
 				display: none;
 				position: relative;
 				z-index: -1;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
 			}
 			#right #strtcode {
 				background-image: url("./img_parallax.jpg");
@@ -426,9 +399,6 @@ box-sizing: border-box;
 				display: none;
 				position: relative;
 				z-index: -1;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
 			}
 			#right #tips {
 				background-image: url("./img_parallax.jpg");
@@ -439,9 +409,6 @@ box-sizing: border-box;
 				display: none;
 				position: relative;
 				z-index: -1;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
 			}
 			#right #pogs {
 				background-image: url("./img_parallax.jpg");
@@ -452,9 +419,6 @@ box-sizing: border-box;
 				display: none;
 				position: relative;
 				z-index: -1;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
 			}
 			#right #sobre #post {
 				background-color: #ffffff;
@@ -464,7 +428,7 @@ box-sizing: border-box;
 				padding-bottom: 0;
 				margin-left: 0.2em;
 				margin-bottom: 0.2em;
-				
+				box-shadow: 0 0 0.2em #cccccc;
 			}
 			#right #home #titulo {
 				background-color: #ffffff;
@@ -474,7 +438,7 @@ box-sizing: border-box;
 				padding-bottom: 0;
 				margin-left: 0.2em;
 				margin-bottom: 0.1em;
-				
+				box-shadow: 0 0 0.2em #cccccc;
 			}
 			#right #home #post {
 				background-color: #ffffff;
@@ -484,7 +448,7 @@ box-sizing: border-box;
 				padding-bottom: 0;
 				margin-left: 0.2em;
 				margin-bottom: 0.2em;
-				
+				box-shadow: 0 0 0.2em #cccccc;
 			}
 			#right #home #post spam {
 				float: right;
@@ -533,7 +497,7 @@ box-sizing: border-box;
 				background-color: #405080;
 				color: #f4f4f4;
 				font-size: 1em;
-				
+				box-shadow: 0.2em 0 0.2em #cccccc;
 			}
 			left #out {
 				position: absolute;
@@ -557,7 +521,7 @@ box-sizing: border-box;
 				-moz-transition: all 0.3s ease;
 				-webkit-transition: all 0.3s ease;
 				background-color: #6070a0;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 			}
 			#sobre #profileimg {
 				display: block;
@@ -584,7 +548,7 @@ box-sizing: border-box;
 			}
 			#galeria {
 				background-color: #ffffff;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 				text-align: center;
 				display: block;
 				margin-left: auto;
@@ -610,7 +574,7 @@ box-sizing: border-box;
 				height: 23em;
 				display: inline-block;
 				cursor: pointer;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 				background-color: #405080;
 				color: #f4f4f4;
 			}
@@ -622,7 +586,7 @@ box-sizing: border-box;
 				height: 20em;
 				display: inline-block;
 				cursor: pointer;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 				background-color: #405080;
 				color: #f4f4f4;
 			}
@@ -637,7 +601,7 @@ box-sizing: border-box;
 			}
 			#galeria .imagem #descimg {
 				background-color: #ffffff;
-				
+				box-shadow: 0 0 0.3em #dddddd;
 				width: calc(98% - 3em);
 				display: block;
 				margin-left: auto;

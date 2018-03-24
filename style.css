@@ -377,7 +377,7 @@
 				-ms-transform: rotate(90deg);
 				-webkit-transform: rotate(90deg);
 			}
-			#right {
+			/*#right {
 				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
@@ -390,7 +390,7 @@
 				left: 0;
 				z-index: -1;
 				overflow: scroll;
-			}
+			}*/
 			#right #home {
 				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
@@ -399,6 +399,11 @@
 				background-size: cover;
 				position: relative;
 				z-index: -1;
+				position: absolute;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
+				left: 0;
 			}
 			#right #sobre {
 				background-image: url("./img_parallax.jpg");
@@ -409,6 +414,11 @@
 				display: none;
 				position: relative;
 				z-index: -1;
+				position: absolute;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
+				left: 0;
 			}
 			#right #strtcode {
 				background-image: url("./img_parallax.jpg");
@@ -419,6 +429,11 @@
 				display: none;
 				position: relative;
 				z-index: -1;
+				position: absolute;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
+				left: 0;
 			}
 			#right #tips {
 				background-image: url("./img_parallax.jpg");
@@ -429,6 +444,11 @@
 				display: none;
 				position: relative;
 				z-index: -1;
+				position: absolute;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
+				left: 0;
 			}
 			#right #pogs {
 				background-image: url("./img_parallax.jpg");
@@ -439,6 +459,11 @@
 				display: none;
 				position: relative;
 				z-index: -1;
+				position: absolute;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
+				left: 0;
 			}
 			#right #sobre #post {
 				background-color: #ffffff;

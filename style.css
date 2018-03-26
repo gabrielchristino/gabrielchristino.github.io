@@ -136,7 +136,7 @@
 				margin-bottom: 1.5em;
 			}
 			#right {
-				max-height: calc(100% - 2.5em);
+				height: calc(100% - 2.5em);
 			}
 			#right #home #titulo {
 				font-size: 36px;

@@ -23,6 +23,7 @@
 			body {
 				font-family: verdana;
 				font-size: 16px;
+				overflow: hidden;
 			}
 			header {
 				position: absolute;
@@ -59,17 +60,17 @@
 				-ms-transform: rotate(90deg);
 				-webkit-transform: rotate(90deg);
 			}
-			#right {
-				/*background-image: url("./img_parallax.jpg");
+			/*#right {
+				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
 				-webkit-filter: sepia(16%);
 				filter: sepia(16%);
-				filter:blur(1px);*/
+				filter:blur(1px);
 				overflow-y: scroll;
-			}
+			}*/
 			#right #home {
 				background-image: url("./img_parallax.jpg");
 				/*background-attachment: fixed;*/

@@ -59,16 +59,17 @@
 				-ms-transform: rotate(90deg);
 				-webkit-transform: rotate(90deg);
 			}
-			/*#right {
-				background-image: url("./img_parallax.jpg");
+			#right {
+				/*background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
 				-webkit-filter: sepia(16%);
 				filter: sepia(16%);
-				filter:blur(1px);
-			}*/
+				filter:blur(1px);*/
+				overflow-y: scroll;
+			}
 			#right #home {
 				background-image: url("./img_parallax.jpg");
 				/*background-attachment: fixed;*/
@@ -82,7 +83,7 @@
 				width: 88%;
 				left: 12.5%;
 				top: 2em;
-				overflow-y: scroll;
+				/*overflow-y: scroll;*/
 				background-color: rgba(0, 0, 0, 0);
 				position: relative;
 				z-index: 100;
@@ -100,7 +101,7 @@
 				width: 88%;
 				left: 12.5%;
 				top: 2em;
-				overflow-y: scroll;
+				/*overflow-y: scroll;*/
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -120,7 +121,7 @@
 				width: 88%;
 				left: 12.5%;
 				top: 2em;
-				overflow-y: scroll;
+				/*overflow-y: scroll;*/
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -140,7 +141,7 @@
 				width: 88%;
 				left: 12.5%;
 				top: 2em;
-				overflow-y: scroll;
+				/*overflow-y: scroll;*/
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -160,7 +161,7 @@
 				width: 88%;
 				left: 12.5%;
 				top: 2em;
-				overflow-y: scroll;
+				/*overflow-y: scroll;*/
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
@@ -403,20 +404,17 @@
 			}*/
 			#right #home {
 				background-image: url("./img_parallax.jpg");
-				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
-				background-size: cover;
 				position: relative;
 				z-index: -1;
-				position: absolute;
+				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				left: 0;
 			}
 			#right #sobre {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -428,10 +426,19 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				left: 0;
+				left: 0;*/
+				background-image: url("./img_parallax.jpg");
+				background-position: center;
+				background-repeat: repeat;
+				position: relative;
+				z-index: -1;
+				position: relative;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
 			}
 			#right #strtcode {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -443,10 +450,19 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				left: 0;
+				left: 0;*/
+				background-image: url("./img_parallax.jpg");
+				background-position: center;
+				background-repeat: repeat;
+				position: relative;
+				z-index: -1;
+				position: relative;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
 			}
 			#right #tips {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -458,10 +474,19 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				left: 0;
+				left: 0;*/
+				background-image: url("./img_parallax.jpg");
+				background-position: center;
+				background-repeat: repeat;
+				position: relative;
+				z-index: -1;
+				position: relative;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
 			}
 			#right #pogs {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -473,7 +498,16 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				left: 0;
+				left: 0;*/
+				background-image: url("./img_parallax.jpg");
+				background-position: center;
+				background-repeat: repeat;
+				position: relative;
+				z-index: -1;
+				position: relative;
+				width: 100%;
+				height: calc(100% - 2.5em);
+				top: 2.5em;
 			}
 			#right #sobre #post {
 				background-color: #ffffff;

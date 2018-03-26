@@ -51,7 +51,7 @@
 				-webkit-transform: rotate(90deg);
 			}
 			#right {
-				max-height: 100%;
+				max-height: calc(100% - 1.5em);
 			}
 			#right #home {
 				background-image: url("./img_parallax.jpg");

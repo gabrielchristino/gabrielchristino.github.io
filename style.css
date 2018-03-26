@@ -366,7 +366,7 @@
 				background-repeat: repeat;
 				background-size: cover;
 				height: calc(100% - 1.5em);
-				width: 88%;
+				width: 100%;
 				left: 12.6%;
 				top: 2em;
 				overflow-y: scroll;

@@ -1,6 +1,6 @@
 @media only screen and (min-device-width: 480px) {
 			.parallax {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				min-height: calc(100% - 3em);
 				background-attachment: fixed;
 				background-position: center;
@@ -54,7 +54,7 @@
 				max-height: calc(100% - 1.5em);
 			}
 			#right #home {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -70,7 +70,7 @@
 				display: block;
 			}
 			#right #sobre {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -86,7 +86,7 @@
 				display: none;
 			}
 			#right #strtcode {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -102,7 +102,7 @@
 				display: none;
 			}
 			#right #tips {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -118,7 +118,7 @@
 				display: none;
 			}
 			#right #pogs {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -354,7 +354,7 @@
 				-webkit-transform: rotate(90deg);
 			}
 			#right {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -370,7 +370,7 @@
 				overflow-y: scroll;
 			}
 			#right #home {
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -384,7 +384,7 @@
 				display: block;
 			}
 			#right #sobre {
-				/*background-image: url("./img_parallax.jpg");
+				/*/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -397,7 +397,7 @@
 				height: calc(100% - 2.5em);
 				top: 2.5em;
 				left: 0;*/
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -411,7 +411,7 @@
 				display: none;
 			}
 			#right #strtcode {
-				/*background-image: url("./img_parallax.jpg");
+				/*/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -424,7 +424,7 @@
 				height: calc(100% - 2.5em);
 				top: 2.5em;
 				left: 0;*/
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -438,7 +438,7 @@
 				display: none;
 			}
 			#right #tips {
-				/*background-image: url("./img_parallax.jpg");
+				/*/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -451,7 +451,7 @@
 				height: calc(100% - 2.5em);
 				top: 2.5em;
 				left: 0;*/
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -465,7 +465,7 @@
 				display: none;
 			}
 			#right #pogs {
-				/*background-image: url("./img_parallax.jpg");
+				/*/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -478,7 +478,7 @@
 				height: calc(100% - 2.5em);
 				top: 2.5em;
 				left: 0;*/
-				background-image: url("./img_parallax.jpg");
+				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;

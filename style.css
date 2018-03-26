@@ -338,7 +338,7 @@
 				box-shadow: 0 0.2em 0.2em #cccccc;
 				background-color: #405080;
 				color: #f4f4f4;
-				z-index: 3;
+				z-index: 5;
 			}
 			header spam {
 				font-size: 1.2em;
@@ -364,10 +364,6 @@
 				-ms-transform: rotate(90deg);
 				-webkit-transform: rotate(90deg);
 			}
-			#right {
-				/*background-image: url("./img_parallax.jpg");*/
-				height: calc(100% - 1.5em);
-			}
 			#right #home {
 				/*background-image: url("./img_parallax.jpg");*/
 				background-attachment: fixed;
@@ -375,7 +371,7 @@
 				background-repeat: repeat;
 				background-size: cover;
 				position: relative;
-				z-index: -1;
+				z-index: 3;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
@@ -390,7 +386,7 @@
 				background-repeat: repeat;
 				background-size: cover;
 				position: relative;
-				z-index: -1;
+				z-index: 3;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
@@ -405,7 +401,7 @@
 				background-repeat: repeat;
 				background-size: cover;
 				position: relative;
-				z-index: -1;
+				z-index: 3;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
@@ -420,7 +416,7 @@
 				background-repeat: repeat;
 				background-size: cover;
 				position: relative;
-				z-index: -1;
+				z-index: 3;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
@@ -435,13 +431,17 @@
 				background-repeat: repeat;
 				background-size: cover;
 				position: relative;
-				z-index: -1;
+				z-index: 3;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
 				display: none;
 				overflow-y: scroll;
+			}
+			#right {
+				/*background-image: url("./img_parallax.jpg");*/
+				height: calc(100% - 1.5em);
 			}
 			#right #sobre #post {
 				background-color: #ffffff;
@@ -510,7 +510,7 @@
 				left: 0;
 				display: none;
 				background-color: rgba(0, 0, 0, 0.1);
-				z-index: 2;
+				z-index: 4;
 			}
 			left #bar {
 				position: absolute;

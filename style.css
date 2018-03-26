@@ -136,6 +136,11 @@
 				margin-bottom: 1.5em;
 			}
 			#right {
+				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: repeat;
+				background-size: cover;
 				height: calc(100% - 1.8em);
 			}
 			#right #home #titulo {

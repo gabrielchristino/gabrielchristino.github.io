@@ -81,12 +81,12 @@
 				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
-				left: 12.5%;
+				right: 0;
 				top: 2em;
 				/*overflow-y: scroll;*/
 				background-color: rgba(0, 0, 0, 0);
 				position: relative;
-				z-index: 100;
+				z-index: -1;
 			}
 			#right #sobre {
 				background-image: url("./img_parallax.jpg");
@@ -99,14 +99,14 @@
 				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
-				left: 12.5%;
+				right: 0;
 				top: 2em;
 				/*overflow-y: scroll;*/
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				z-index: 100;
+				z-index: -1;
 			}
 			#right #strtcode {
 				background-image: url("./img_parallax.jpg");
@@ -119,14 +119,14 @@
 				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
-				left: 12.5%;
+				right: 0;
 				top: 2em;
 				/*overflow-y: scroll;*/
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				z-index: 100;
+				z-index: -1;
 			}
 			#right #tips {
 				background-image: url("./img_parallax.jpg");
@@ -139,14 +139,14 @@
 				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
-				left: 12.5%;
+				right: 0;
 				top: 2em;
 				/*overflow-y: scroll;*/
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				z-index: 100;
+				z-index: -1;
 			}
 			#right #pogs {
 				background-image: url("./img_parallax.jpg");
@@ -159,14 +159,14 @@
 				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
-				left: 12.5%;
+				right: 0;
 				top: 2em;
 				/*overflow-y: scroll;*/
 				
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				z-index: 100;
+				z-index: -1;
 			}
 			#right #home #titulo {
 				font-size: 36px;

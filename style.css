@@ -65,6 +65,7 @@
 				position: relative;
 				z-index: 3;
 				display: block;
+				margin-bottom: 1.5em;
 			}
 			#right #sobre {
 				/*background-image: url("./img_parallax.jpg");*/
@@ -81,6 +82,7 @@
 				position: relative;
 				z-index: 3;
 				display: none;
+				margin-bottom: 1.5em;
 			}
 			#right #strtcode {
 				/*background-image: url("./img_parallax.jpg");*/
@@ -97,6 +99,7 @@
 				position: relative;
 				z-index: 3;
 				display: none;
+				margin-bottom: 1.5em;
 			}
 			#right #tips {
 				/*background-image: url("./img_parallax.jpg");*/
@@ -113,6 +116,7 @@
 				position: relative;
 				z-index: 3;
 				display: none;
+				margin-bottom: 1.5em;
 			}
 			#right #pogs {
 				/*background-image: url("./img_parallax.jpg");*/
@@ -129,6 +133,7 @@
 				position: relative;
 				z-index: 3;
 				display: none;
+				margin-bottom: 1.5em;
 			}
 			#right #home #titulo {
 				font-size: 36px;

@@ -71,13 +71,13 @@
 			}*/
 			#right #home {
 				background-image: url("./img_parallax.jpg");
-				background-attachment: fixed;
+				/*background-attachment: fixed;*/
 				background-position: center;
 				background-repeat: repeat;
-				background-size: cover;
+				/*background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
-				filter:blur(0);
+				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
 				left: 12.5%;
@@ -89,13 +89,13 @@
 			}
 			#right #sobre {
 				background-image: url("./img_parallax.jpg");
-				background-attachment: fixed;
+				/*background-attachment: fixed;*/
 				background-position: center;
 				background-repeat: repeat;
-				background-size: cover;
+				/*background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
-				filter:blur(0);
+				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
 				left: 12.5%;
@@ -109,13 +109,13 @@
 			}
 			#right #strtcode {
 				background-image: url("./img_parallax.jpg");
-				background-attachment: fixed;
+				/*background-attachment: fixed;*/
 				background-position: center;
 				background-repeat: repeat;
-				background-size: cover;
+				/*background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
-				filter:blur(0);
+				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
 				left: 12.5%;
@@ -129,13 +129,13 @@
 			}
 			#right #tips {
 				background-image: url("./img_parallax.jpg");
-				background-attachment: fixed;
+				/*background-attachment: fixed;*/
 				background-position: center;
 				background-repeat: repeat;
-				background-size: cover;
+				/*background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
-				filter:blur(0);
+				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
 				left: 12.5%;
@@ -149,13 +149,13 @@
 			}
 			#right #pogs {
 				background-image: url("./img_parallax.jpg");
-				background-attachment: fixed;
+				/*background-attachment: fixed;*/
 				background-position: center;
 				background-repeat: repeat;
-				background-size: cover;
+				/*background-size: cover;
 				-webkit-filter: sepia(0);
 				filter: sepia(0);
-				filter:blur(0);
+				filter:blur(0);*/
 				height: calc(100% - 1.5em);
 				width: 88%;
 				left: 12.5%;

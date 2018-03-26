@@ -68,7 +68,7 @@
 				margin-bottom: 1.5em;
 			}
 			#right {
-				max-height: calc(100% - 2.5em);
+				max-height: calc(100% - 1.5em);
 			}
 			#right #sobre {
 				/*background-image: url("./img_parallax.jpg");*/

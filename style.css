@@ -88,7 +88,7 @@
 				/*overflow-y: scroll;*/
 				background-color: rgba(0, 0, 0, 0);
 				position: relative;
-				z-index: -1;
+				z-index: 10;
 			}
 			#right #sobre {
 				background-image: url("./img_parallax.jpg");
@@ -109,7 +109,7 @@
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				z-index: -1;
+				z-index: 10;
 			}
 			#right #strtcode {
 				background-image: url("./img_parallax.jpg");
@@ -130,7 +130,7 @@
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				z-index: -1;
+				z-index: 10;
 			}
 			#right #tips {
 				background-image: url("./img_parallax.jpg");
@@ -151,7 +151,7 @@
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				z-index: -1;
+				z-index: 10;
 			}
 			#right #pogs {
 				background-image: url("./img_parallax.jpg");
@@ -172,7 +172,7 @@
 				background-color: rgba(0, 0, 0, 0);
 				display: none;
 				position: relative;
-				z-index: -1;
+				z-index: 10;
 			}
 			#right #home #titulo {
 				font-size: 36px;

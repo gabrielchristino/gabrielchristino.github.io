@@ -367,7 +367,7 @@
 				background-size: cover;
 				height: calc(100% - 1.5em);
 				width: 100%;
-				left: 12.6%;
+				left: 0;
 				top: 2em;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);

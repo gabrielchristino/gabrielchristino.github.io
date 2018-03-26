@@ -361,7 +361,7 @@
 				-ms-transform: rotate(90deg);
 				-webkit-transform: rotate(90deg);
 			}
-			/*#right {
+			#right {
 				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
@@ -374,9 +374,9 @@
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
 				position: relative;
-				z-index: 3;
-				display: none;
-			}*/
+				z-index: -2;
+				overflow-y: scroll;
+			}
 			#right #home {
 				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
@@ -389,7 +389,6 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				overflow-y: scroll;
 				display: block;
 			}
 			#right #sobre {
@@ -417,7 +416,6 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				overflow-y: scroll;
 				display: none;
 			}
 			#right #strtcode {
@@ -445,7 +443,6 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				overflow-y: scroll;
 				display: none;
 			}
 			#right #tips {
@@ -473,7 +470,6 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				overflow-y: scroll;
 				display: none;
 			}
 			#right #pogs {
@@ -501,7 +497,6 @@
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
-				overflow-y: scroll;
 				display: none;
 			}
 			#right #sobre #post {
@@ -571,7 +566,7 @@
 				left: 0;
 				display: none;
 				background-color: rgba(0, 0, 0, 0.1);
-				z-index: 4;
+				z-index: 2;
 			}
 			left #bar {
 				position: absolute;

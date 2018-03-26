@@ -206,6 +206,7 @@
 			left {
 				position: absolute;
 				width: 13%;
+				min-width: 8em;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
 				left: 0;

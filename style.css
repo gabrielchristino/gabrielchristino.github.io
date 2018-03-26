@@ -1,14 +1,15 @@
 @media only screen and (min-device-width: 480px) {
 			.parallax {
-				/*background-image: url("./img_parallax.jpg");*/
-				min-height: calc(100% - 3em);
+				position: absolute;
+				top: 0;
+				left: 0;
+				min-height: 100%;
+				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				
-				filter: sepia(60%);
-				filter:blur(1px);
+				z-index: -25;
 			}
 			body {
 				font-family: verdana;
@@ -325,6 +326,18 @@
 			}
 }
 @media only screen and (max-device-width: 480px) {
+			.parallax {
+				position: absolute;
+				top: 0;
+				left: 0;
+				min-height: 100%;
+				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				z-index: -25;
+			}
 			body {
 				font-family: verdana;
 				font-size: 3.5em;
@@ -365,7 +378,7 @@
 				-webkit-transform: rotate(90deg);
 			}
 			#right #home {
-				/*background-image: url("./img_parallax.jpg");*/
+				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -380,7 +393,7 @@
 				overflow-y: scroll;
 			}
 			#right #sobre {
-				/*background-image: url("./img_parallax.jpg");*/
+				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -395,7 +408,7 @@
 				overflow-y: scroll;
 			}
 			#right #strtcode {
-				/*background-image: url("./img_parallax.jpg");*/
+				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -410,7 +423,7 @@
 				overflow-y: scroll;
 			}
 			#right #tips {
-				/*background-image: url("./img_parallax.jpg");*/
+				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -425,7 +438,7 @@
 				overflow-y: scroll;
 			}
 			#right #pogs {
-				/*background-image: url("./img_parallax.jpg");*/
+				background-image: url("./img_parallax.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
@@ -440,8 +453,8 @@
 				overflow-y: scroll;
 			}
 			#right {
-				/*background-image: url("./img_parallax.jpg");*/
-				height: calc(100% - 1.5em);
+				background-image: url("./img_parallax.jpg");
+				height: calc(100% - 1.2em);
 			}
 			#right #sobre #post {
 				background-color: #ffffff;

@@ -367,24 +367,29 @@
 				background-position: center;
 				background-repeat: repeat;
 				background-size: cover;
-				position: absolute;
-				width: 100%;
-				height: calc(100% - 2.5em);
-				top: 2.5em;z
-				left: 0;
-				z-index: -1;
-				overflow: scroll;
+				height: calc(100% - 1.5em);
+				width: 88%;
+				left: 12.6%;
+				top: 2em;
+				overflow-y: scroll;
+				background-color: rgba(0, 0, 0, 0);
+				position: relative;
+				z-index: 3;
+				display: none;
 			}*/
 			#right #home {
 				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
+				background-size: cover;
 				position: relative;
 				z-index: -1;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
+				overflow-y: scroll;
 				display: block;
 			}
 			#right #sobre {
@@ -402,13 +407,17 @@
 				top: 2.5em;
 				left: 0;*/
 				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
+				background-size: cover;
+				position: relative;
 				z-index: -1;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
+				overflow-y: scroll;
 				display: none;
 			}
 			#right #strtcode {
@@ -426,13 +435,17 @@
 				top: 2.5em;
 				left: 0;*/
 				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
+				background-size: cover;
+				position: relative;
 				z-index: -1;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
+				overflow-y: scroll;
 				display: none;
 			}
 			#right #tips {
@@ -450,13 +463,17 @@
 				top: 2.5em;
 				left: 0;*/
 				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
+				background-size: cover;
+				position: relative;
 				z-index: -1;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
+				overflow-y: scroll;
 				display: none;
 			}
 			#right #pogs {
@@ -474,13 +491,17 @@
 				top: 2.5em;
 				left: 0;*/
 				background-image: url("./img_parallax.jpg");
+				background-attachment: fixed;
 				background-position: center;
 				background-repeat: repeat;
+				background-size: cover;
+				position: relative;
 				z-index: -1;
 				position: relative;
 				width: 100%;
 				height: calc(100% - 2.5em);
 				top: 2.5em;
+				overflow-y: scroll;
 				display: none;
 			}
 			#right #sobre #post {

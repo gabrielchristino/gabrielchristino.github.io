@@ -3,12 +3,20 @@
 				if ( varsidebar == 0 ) {
 					$('#sidebar').slideUp(500);
 					var newWidth = $('#home').width() + 30;
-					$("#home").animate({width: newWidth});
+					var newLeft = $('#home').left() - 30;
+					$("#home").animate({
+						width: newWidth,
+						left: newLeft
+					});
 					varsidebar = 1;
 				} else {
 					$('#sidebar').slideDown(500);
 					var newWidth = $('#home').width() - 30;
-					$("#home").animate({width: newWidth});
+					var newLeft = $('#home').left() + 30;
+					$("#home").animate({
+						width: newWidth,
+						left: newLeft
+					});
 					varsidebar = 0;
 				}
 			}

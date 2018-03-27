@@ -2,11 +2,11 @@
 			function sidebarshow() {
 				if ( varsidebar == 0 ) {
 					$('#sidebar').slideUp(500);
-					var newWidth = $('#home').width() + 30;
-					var newLeft = $('#home').left() - 30;
+					//var newWidth = $('#home').width() + 30;
+					//var newLeft = $('#home').left() - 30;
 					$("#home").animate({
-						width: newWidth,
-						left: newLeft
+						width: '100%',
+						left: '0'
 					});
 					varsidebar = 1;
 				} else {
@@ -14,8 +14,9 @@
 					var newWidth = $('#home').width() - 30;
 					var newLeft = $('#home').left() + 30;
 					$("#home").animate({
-						width: newWidth,
-						left: newLeft
+						width: '100%',
+						width: '-=15em',
+						left: '15em'
 					});
 					varsidebar = 0;
 				}

@@ -342,17 +342,19 @@
 				overflow: hidden;
 			}
 			header {
-				width: 80%;
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 5em;
+				height: 6em;
+				width: 6em;
 				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
 				background-color: #304070;
 				color: #f4f4f4;
 				z-index: 5;
+				border-radius: 0.5em;
 			}
 			header spam {
+				display: none;
 				font-size: 2em;
 				top: 1em;
 				left: 3em;
@@ -361,7 +363,7 @@
 			}
 			header button {
 				position: absolute;
-				font-size: 2em;
+				font-size: 4em;
 				border: none;
 				color: #f4f4f4;
 				background-color: rgba(0, 0, 0, 0);
@@ -369,7 +371,7 @@
 				display: inline-block;
 				-webkit-appearance: none;
 				left: -0.3em;
-				top: 0.2em;
+				top: 0em;
 				width: 2em;
 				height: 5em;
 				transform: rotate(90deg);
@@ -379,8 +381,8 @@
 			}
 			#right #home {
 				height: 100%;
-				width: calc(100% - 15em);
-				left: 15em;
+				width: 100%;
+				left: 0;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -391,8 +393,8 @@
 			}
 			#right #sobre {
 				height: 100%;
-				width: calc(100% - 15em);
-				left: 15em;
+				width: 100%;
+				left: 0;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -403,8 +405,8 @@
 			}
 			#right #strtcode {
 				height: 100%;
-				width: calc(100% - 15em);
-				left: 15em;
+				width: 100%;
+				left: 0;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -415,8 +417,8 @@
 			}
 			#right #tips {
 				height: 100%;
-				width: calc(100% - 15em);
-				left: 15em;
+				width: 100%;
+				left: 0;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -427,8 +429,8 @@
 			}
 			#right #pogs {
 				height: 100%;
-				width: calc(100% - 15em);
-				left: 15em;
+				width: 100%;
+				left: 0;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -446,18 +448,18 @@
 			#right #strtcode #titulo,
 			#right #tips #titulo,
 			#right #pogs #titulo {
-				font-size: 2em;
+				font-size: 5em;
 				text-align: left;
 				border-radius: 0.26em;
 				background-color: #ffffff;
 				width: calc(100% - 2.2em);
 				padding-bottom: 0.3em;
-				margin-left: 0.75em;
-				margin-right: 3em;
+				margin-left: 0.5em;
+				margin-right: 0.5em;
 				margin-bottom: 0.1em;
 				margin-top: 0;
 				padding-top: 0;
-				top: 0;
+				top: 5em;
 				padding: 0.2em;
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
@@ -465,11 +467,11 @@
 				border-radius: 0.5em;
 				background-color: #ffffff;
 				margin-top: 0;
-				width: calc(100% - 4em);
+				width: calc(100% - 1em);
 				padding: 0.2em;
 				padding-bottom: 0.3em;
-				margin-left: 1.5em;
-				margin-right: 1.5em;
+				margin-left: 0.5em;
+				margin-right: 0.5em;
 				margin-bottom: 1em;
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
@@ -477,11 +479,11 @@
 				border-radius: 0.5em;
 				background-color: #ffffff;
 				margin-top: 0;
-				width: calc(100% - 4em);
+				width: calc(100% - 1em);
 				padding: 0.2em;
 				padding-bottom: 0.3em;
-				margin-left: 1.5em;
-				margin-right: 1.5em;
+				margin-left: 0.5em;
+				margin-right: 0.5em;
 				margin-bottom: 1em;
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
@@ -492,14 +494,14 @@
 				width: 25%;
 				height: auto;
 				vertical-align: middle;
-				margin-bottom: 0.8em;
-				margin-left: 0.8em;
-				margin-top: 0.8em;
+				margin-bottom: 0.1em;
+				margin-left: 0.1em;
+				margin-top: 0.1em;
 			}
 			#right #home #post p {
 				background-color: rgba(0, 0, 0, 0);
 				margin-left: 0.8em;
-				font-size: 5em;
+				font-size: 3.5em;
 				cursor: pointer;
 				display: inline-block;
 			}
@@ -517,11 +519,11 @@
 			}
 			left {
 				position: absolute;
-				width: 15em;
-				height: 80%;
-				top: 3.7em;
+				width: 80%;
+				height: 100%;
+				top: 4em;
 				left: 0;
-				display: block;
+				display: none;
 				background-color: rgba(0, 0, 0, 0);
 				z-index: 4;
 			}
@@ -533,7 +535,7 @@
 				top: 0;
 				background-color: #405080;
 				color: #f4f4f4;
-				font-size: 5em;
+				font-size: 3em;
 				box-shadow: 0.2em 0 0.2em rgba(204, 204, 204, 0.4);
 			}
 			left #bar ul {
@@ -564,7 +566,7 @@
 				margin-bottom: 0.2em;
 			}
 			#galeria {
-				border-radius: 0.6em;
+				border-radius: 0.5em;
 				background-color: #ffffff;
 				box-shadow: 0 0 0.3em #dddddd;
 				text-align: center;
@@ -573,7 +575,6 @@
 				margin-right: auto;
 				margin-bottom: 0.5em;
 				width: 98%;
-				height: 23em;
 				overflow: hidden;
 			}
 			#galeria .imagem {
@@ -587,7 +588,7 @@
 				display: block;
 			}
 			#galeria .imagem .prox {
-				border-radius: 0.3em;
+				border-radius: 0.1em;
 				font-size: 5em;
 				float: right;
 				right: 2%;
@@ -600,7 +601,7 @@
 				color: #f4f4f4;
 			}
 			#galeria .imagem .ante {
-				border-radius: 0.3em;
+				border-radius: 0.1em;
 				font-size: 5em;
 				float: left;
 				left: 2%;

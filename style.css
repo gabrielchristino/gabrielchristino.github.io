@@ -13,7 +13,7 @@
 				z-index: -25;
 				filter: sepia(70%);
 				filter:blur(2px);
-				filter:opacity(50%);
+				filter:opacity(30%);
 			}
 			body {
 				font-family: verdana;
@@ -21,8 +21,7 @@
 				overflow: hidden;
 			}
 			header {
-				width: 13%;
-				min-width: 8em;
+				width: 15em;
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -59,8 +58,8 @@
 			}
 			#right #home {
 				height: 100%;
-				width: 88%;
-				left: 12.6%;
+				width: calc(100% - 15em);
+				left: 15em;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -71,8 +70,8 @@
 			}
 			#right #sobre {
 				height: 100%;
-				width: 88%;
-				left: 12.6%;
+				width: calc(100% - 15em);
+				left: 15em;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -83,8 +82,8 @@
 			}
 			#right #strtcode {
 				height: 100%;
-				width: 88%;
-				left: 12.6%;
+				width: calc(100% - 15em);
+				left: 15em;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -95,8 +94,8 @@
 			}
 			#right #tips {
 				height: 100%;
-				width: 88%;
-				left: 12.6%;
+				width: calc(100% - 15em);
+				left: 15em;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -107,8 +106,8 @@
 			}
 			#right #pogs {
 				height: 100%;
-				width: 88%;
-				left: 12.6%;
+				width: calc(100% - 15em);
+				left: 15em;
 				top: 0;
 				overflow-y: scroll;
 				background-color: rgba(0, 0, 0, 0);
@@ -196,8 +195,7 @@
 			}
 			left {
 				position: absolute;
-				width: 13%;
-				min-width: 8em;
+				width: 15em;
 				height: calc(100% - 3.7em);
 				top: 3.7em;
 				left: 0;

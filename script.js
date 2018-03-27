@@ -32,9 +32,7 @@
 			
 			function sidebar() {
 				if ( desktop == 0 ) {
-					function(){
-						$("#dropdown-content2").slideToggle(500);
-					}
+					$("#sidebar").slideToggle(500);
 				}
 			}
 			function phome() {

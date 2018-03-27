@@ -502,12 +502,10 @@
 			}
 			#right #home #post p {
 				background-color: rgba(0, 0, 0, 0);
-				float: right;
-				right: 0.1em;
-				top: 1em;
+				margin-left: 0.8em;
 				font-size: 3.5em;
 				cursor: pointer;
-				display: block;
+				display: inline-block;
 				
 			}
 			#right #home #post spam {

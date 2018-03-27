@@ -1,3 +1,13 @@
+			var varsidebar = 0;
+			function sidebarshow() {
+				if ( varsidebar == 0 ) {
+					$('#sidebar').slideUp(500);
+					$("#right").animate({widht: '100%'});
+				} else {
+					$('#sidebar').slideDown(500);
+					$("#right").animate({width: calc(100% - 15em)});
+				}
+			}
 			function phome() {
 				$('#home').slideDown(500);
 				$('#sobre').slideUp(500);

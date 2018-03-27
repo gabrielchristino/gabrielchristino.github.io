@@ -35,10 +35,14 @@
 			}
 			function fprox(numero) {
 				numfoto = "img" + numero;
-				document.getElementById(numfoto).style.display = 'inline-block';
+				$(numfoto).animate({
+				    display = 'inline-block',
+				});
 				numero = numero - 1;
 				numfoto = "img" + numero;
-				document.getElementById(numfoto).style.display = 'none';
+				$(numfoto).animate({
+				    display = 'none',
+				});
 			}
 			function fante(numero) {
 				numfoto = "img" + numero;

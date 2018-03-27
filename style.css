@@ -364,7 +364,7 @@
 			header button {
 				position: absolute;
 				font-size: 4em;
-				top: -0.3;
+				top: 0;
 				left: 0;
 				border: none;
 				color: #f4f4f4;
@@ -375,7 +375,7 @@
 				left: -1em;
 				top: 0em;
 				width: 2em;
-				height: 1.5em;
+				height: 1.6em;
 				transform: rotate(90deg);
 				-o-transform: rotate(90deg);
 				-ms-transform: rotate(90deg);

@@ -11,8 +11,9 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				z-index: -25;
-				filter: sepia(60%);
-				filter:blur(1px);
+				filter: sepia(70%);
+				filter:blur(2px);
+				filter:opacity(50%);
 			}
 			body {
 				font-family: verdana;

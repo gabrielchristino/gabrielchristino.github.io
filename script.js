@@ -5,8 +5,8 @@
 					$("#right").animate({widht: '100%'});
 				} else {
 					$('#sidebar').slideDown(500);
-					var newHeight = $('#right').height() - 30em;
-					$("#right").animate({width: newHeight});
+					var newWidth = $('#right').width() - 30;
+					$("#right").animate({width: newWidth});
 				}
 			}
 			function phome() {

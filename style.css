@@ -345,8 +345,8 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 6em;
-				width: 6em;
+				height: 7em;
+				width: 7em;
 				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
 				background-color: #304070;
 				color: #f4f4f4;
@@ -363,7 +363,7 @@
 			}
 			header button {
 				position: absolute;
-				font-size: 4em;
+				font-size: 6em;
 				top: 0;
 				left: 0;
 				border: none;
@@ -374,8 +374,8 @@
 				-webkit-appearance: none;
 				left: -1em;
 				top: 0em;
-				width: 2em;
-				height: 1.6em;
+				width: 3em;
+				height: 3em;
 				transform: rotate(90deg);
 				-o-transform: rotate(90deg);
 				-ms-transform: rotate(90deg);

@@ -23,22 +23,22 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 3em;
+				height: 3.5em;
 				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
 				background-color: #405080;
 				color: #f4f4f4;
 				z-index: 5;
 			}
 			header spam {
-				font-size: 1.2em;
-				top: 0.5em;
+				font-size: 1.5em;
+				top: 0.2em;
 				left: 2em;
 				display: inline-block;
 				position: absolute;
 			}
 			header button {
 				position: absolute;
-				font-size: 1.7em;
+				font-size: 2em;
 				border: none;
 				color: #f4f4f4;
 				background-color: rgba(0, 0, 0, 0);

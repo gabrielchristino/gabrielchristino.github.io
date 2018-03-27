@@ -480,7 +480,7 @@
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #sobre #post p {
-				font-size: 0.9em;
+				font-size: 3em;
 			}
 			#right #home #post {
 				border-radius: 0.5em;
@@ -598,9 +598,10 @@
 			#galeria .imagem .prox {
 				border-bottom-right-radius: 0.2em;
 				border-top-right-radius: 0.2em;
-				font-size: 57m;
+				font-size: 7em;
 				float: right;
 				right: 2%;
+				height: 100%;
 				padding-top: 5em;
 				display: inline-block;
 				cursor: pointer;
@@ -614,6 +615,7 @@
 				font-size: 7em;
 				float: left;
 				left: 2%;
+				height: 100%;
 				padding-top: 5em;
 				display: inline-block;
 				cursor: pointer;
@@ -639,7 +641,7 @@
 				margin-left: auto;
 				margin-right: auto;
 				height: 2.8em;
-				text-size: 3em;
+				font-size: 3em;
 			}
 			footer {
 				

@@ -125,7 +125,8 @@
 				height: 100%;
 			}
 			#right #home #titulo {
-				font-size: 3em;
+				font-size: 2em;
+				text-align: left;
 				border-radius: 0.5em;
 				background-color: #ffffff;
 				margin-top: 0;

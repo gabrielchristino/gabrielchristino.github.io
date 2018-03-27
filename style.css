@@ -365,15 +365,13 @@
 				position: absolute;
 				font-size: 6em;
 				top: 0;
-				left: 0;
+				left: -0.5em;
 				border: none;
 				color: #f4f4f4;
 				background-color: rgba(0, 0, 0, 0);
 				cursor: pointer;
 				display: inline-block;
 				-webkit-appearance: none;
-				left: 0em;
-				top: 0em;
 				width: 1.5em;
 				height: 2em;
 				transform: rotate(90deg);

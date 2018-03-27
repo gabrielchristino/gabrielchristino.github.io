@@ -118,6 +118,9 @@
 				$('#strtcode').slideUp(500);
 				$('#tips').slideUp(500);
 				$('#pogs').slideUp(500);
+				if ( desktop == 0 ) {
+					sidebarshow();
+				}
 			}
 			function psobre() {
 				$('#home').slideUp(500);
@@ -125,6 +128,9 @@
 				$('#strtcode').slideUp(500);
 				$('#tips').slideUp(500);
 				$('#pogs').slideUp(500);
+				if ( desktop == 0 ) {
+					sidebarshow();
+				}
 			}
 			function pstrtcode() {
 				$('#home').slideUp(500);
@@ -132,6 +138,9 @@
 				$('#strtcode').slideDown(500);
 				$('#tips').slideUp(500);
 				$('#pogs').slideUp(500);
+				if ( desktop == 0 ) {
+					sidebarshow();
+				}
 			}
 			function ptips() {
 				$('#home').slideUp(500);
@@ -139,6 +148,9 @@
 				$('#strtcode').slideUp(500);
 				$('#tips').slideDown(500);
 				$('#pogs').slideUp(500);
+				if ( desktop == 0 ) {
+					sidebarshow();
+				}
 			}
 			function ppogs() {
 				$('#home').slideUp(500);
@@ -146,6 +158,9 @@
 				$('#strtcode').slideUp(500);
 				$('#tips').slideUp(500);
 				$('#pogs').slideDown(500);
+				if ( desktop == 0 ) {
+					sidebarshow();
+				}
 			}
 			function fprox(numero) {
 				numfoto = "img" + numero;

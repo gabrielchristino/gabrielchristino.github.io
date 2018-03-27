@@ -269,7 +269,8 @@
 				display: block;
 			}
 			#galeria .imagem .prox {
-				border-radius: 0.3em;
+				border-bottom-right-radius: 0.3em;
+				border-top-right-radius: 0.3em;
 				font-size: 2em;
 				float: right;
 				right: 2%;
@@ -282,7 +283,8 @@
 				color: #f4f4f4;
 			}
 			#galeria .imagem .ante {
-				border-radius: 0.3em;
+				border-bottom-left-radius: 0.3em;
+				border-top-left-radius: 0.3em;
 				font-size: 2em;
 				float: left;
 				left: 2%;
@@ -594,7 +596,8 @@
 				display: block;
 			}
 			#galeria .imagem .prox {
-				border-radius: 0.1em;
+				border-bottom-right-radius: 0.2em;
+				border-top-right-radius: 0.2em;
 				font-size: 57m;
 				float: right;
 				right: 2%;
@@ -606,7 +609,8 @@
 				color: #f4f4f4;
 			}
 			#galeria .imagem .ante {
-				border-radius: 0.1em;
+				border-bottom-left-radius: 0.2em;
+				border-top-left-radius: 0.2em;
 				font-size: 7em;
 				float: left;
 				left: 2%;

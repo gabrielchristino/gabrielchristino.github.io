@@ -109,8 +109,8 @@
 						'border-radius': '0em'
 					});
 					$("#headerspam").animate({
-						'font-size': '3.5em',
-						left: '4.5em'
+						'font-size': '3.7em',
+						left: '4em'
 					});
 					varsidebar = 1;
 				}

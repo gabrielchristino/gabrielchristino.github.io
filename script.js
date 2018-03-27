@@ -5,17 +5,17 @@
 					//var newWidth = $('#home').width() + 30;
 					//var newLeft = $('#home').left() - 30;
 					$("#home").animate({
-						width: '100%',
+						//width: '100%',
 						width: '+=15em',
 						left: '-=15em'
 					});
 					varsidebar = 1;
 				} else {
 					$('#sidebar').slideDown(500);
-					var newWidth = $('#home').width() - 30;
-					var newLeft = $('#home').left() + 30;
+					//var newWidth = $('#home').width() - 30;
+					//var newLeft = $('#home').left() + 30;
 					$("#home").animate({
-						width: '100%',
+						//width: '100%',
 						width: '-=15em',
 						left: '+=15em'
 					});

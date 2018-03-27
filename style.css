@@ -364,8 +364,8 @@
 			header button {
 				position: absolute;
 				font-size: 6em;
-				top: 0;
-				left: -0.5em;
+				top: -0.5;
+				left: 0em;
 				border: none;
 				color: #f4f4f4;
 				background-color: rgba(0, 0, 0, 0);

@@ -372,9 +372,9 @@
 				cursor: pointer;
 				display: inline-block;
 				-webkit-appearance: none;
-				left: -1em;
+				left: 0em;
 				top: 0em;
-				width: 2em;
+				width: 1.5em;
 				height: 2em;
 				transform: rotate(90deg);
 				-o-transform: rotate(90deg);

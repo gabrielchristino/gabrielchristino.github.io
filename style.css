@@ -476,6 +476,7 @@
 				margin-right: 0.5em;
 				margin-bottom: 1em;
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
+				font-size: 4em;
 			}
 			#right #home #post {
 				border-radius: 0.5em;
@@ -592,11 +593,10 @@
 			}
 			#galeria .imagem .prox {
 				border-radius: 0.1em;
-				font-size: 5em;
+				font-size: 57m;
 				float: right;
 				right: 2%;
 				padding-top: 5em;
-				height: 23em;
 				display: inline-block;
 				cursor: pointer;
 				box-shadow: 0 0 0.3em #dddddd;
@@ -605,11 +605,10 @@
 			}
 			#galeria .imagem .ante {
 				border-radius: 0.1em;
-				font-size: 5em;
+				font-size: 7em;
 				float: left;
 				left: 2%;
 				padding-top: 5em;
-				height: 20em;
 				display: inline-block;
 				cursor: pointer;
 				box-shadow: 0 0 0.3em #dddddd;

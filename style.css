@@ -121,6 +121,7 @@
 				height: calc(100% - 1.8em);
 			}
 			#right #home #titulo {
+				border-radius: 0.5em;
 				font-size: 36px;
 				background-color: #ffffff;
 				margin-top: 0;
@@ -133,6 +134,7 @@
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #sobre #post {
+				border-radius: 0.5em;
 				background-color: #ffffff;
 				margin-top: 0;
 				width: calc(100% - 4em);
@@ -144,6 +146,7 @@
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #home #post {
+				border-radius: 0.5em;
 				background-color: #ffffff;
 				margin-top: 0;
 				width: calc(100% - 4em);
@@ -155,6 +158,7 @@
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
 			#right #home #post img {
+				border-radius: 0.5em;
 				display: inline-block;
 				cursor: pointer;
 				width: 25%;
@@ -226,6 +230,7 @@
 				box-shadow: 0 0 0.3em #dddddd;
 			}
 			#sobre #profileimg {
+				border-radius: 0.5em;
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
@@ -236,6 +241,7 @@
 				margin-bottom: 0.2em;
 			}
 			#galeria {
+				border-radius: 0.5em;
 				background-color: #ffffff;
 				box-shadow: 0 0 0.3em #dddddd;
 				text-align: center;
@@ -248,14 +254,17 @@
 				overflow: hidden;
 			}
 			#galeria .imagem {
+				border-radius: 0.5em;
 				width: 100%;
 				display: none;
 			}
 			#galeria #img1 {
+				border-radius: 0.5em;
 				width: 100%;
 				display: block;
 			}
 			#galeria .imagem .prox {
+				border-radius: 0.5em;
 				font-size: 2em;
 				float: right;
 				right: 2%;
@@ -268,6 +277,7 @@
 				color: #f4f4f4;
 			}
 			#galeria .imagem .ante {
+				border-radius: 0.5em;
 				font-size: 2em;
 				float: left;
 				left: 2%;
@@ -280,6 +290,7 @@
 				color: #f4f4f4;
 			}
 			#galeria .imagem .sobreimg {
+				border-radius: 0.5em;
 				display: inline-block;
 				margin-left: auto;
 				margin-right: auto;
@@ -289,6 +300,7 @@
 				max-width: calc(100% - 5em);
 			}
 			#galeria .imagem #descimg {
+				border-radius: 0.5em;
 				background-color: #ffffff;
 				box-shadow: 0 0 0.3em #dddddd;
 				width: calc(98% - 3em);

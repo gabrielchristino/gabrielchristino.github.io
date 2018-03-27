@@ -503,8 +503,8 @@
 			#right #home #post p {
 				background-color: rgba(0, 0, 0, 0);
 				float: right;
-				left: 25%;
-				top: 3em;
+				right: 0.1em;
+				top: 1em;
 				font-size: 3.5em;
 				cursor: pointer;
 				display: block;

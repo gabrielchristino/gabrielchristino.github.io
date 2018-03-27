@@ -22,7 +22,11 @@
 						width: '+=15em',
 						left: '-=15em'
 					});
-					$("#header").animate({width: '2em'});
+					$("#header").animate({
+						width: '2.1em',
+						'border-radius': '0em'
+					});
+					$("#headerspam").animate({'font-size': '0em'});
 					varsidebar = 1;
 				} else {
 					$('#sidebar').slideDown(500);
@@ -46,7 +50,11 @@
 						width: '-=15em',
 						left: '+=15em'
 					});
-					$("#header").animate({width: '15em'});
+					$("#header").animate({
+						width: '15em',
+						'border-radius': '0.3em'
+					});
+					$("#headerspam").animate({'font-size': '1.2em'});
 					varsidebar = 0;
 				}
 			}

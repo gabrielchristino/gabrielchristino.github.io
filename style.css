@@ -351,7 +351,8 @@
 				background-color: #304070;
 				color: #f4f4f4;
 				z-index: 5;
-				border-radius: 0.5em;
+				border-bottom-right-radius: 0.5em;
+				border-top-right-radius: 0.5em;
 			}
 			header spam {
 				display: none;
@@ -364,7 +365,7 @@
 			header button {
 				position: absolute;
 				font-size: 6em;
-				top: -0.5em;
+				top: -0.4em;
 				left: 0em;
 				border: none;
 				color: #f4f4f4;
@@ -450,9 +451,9 @@
 			#right #pogs #titulo {
 				font-size: 5em;
 				text-align: left;
-				border-radius: 0.26em;
+				border-radius: 0.2em;
 				background-color: #ffffff;
-				width: calc(100% - 2.5em);
+				width: calc(100% - 2.4em);
 				padding-bottom: 0.3em;
 				margin-left: 2em;
 				margin-right: 0;

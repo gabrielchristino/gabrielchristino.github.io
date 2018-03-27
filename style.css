@@ -127,11 +127,11 @@
 			#right #home #titulo {
 				font-size: 2em;
 				text-align: left;
-				border-radius: 0.25em;
+				border-radius: 0.3em;
 				background-color: #ffffff;
 				width: calc(100% - 2.2em);
 				padding-bottom: 0.3em;
-				margin-left: 0.8em;
+				margin-left: 0.75em;
 				margin-right: 3em;
 				margin-bottom: 0.1em;
 				margin-top: 0;

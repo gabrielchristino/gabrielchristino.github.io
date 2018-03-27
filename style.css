@@ -53,11 +53,7 @@
 				-webkit-transform: rotate(90deg);
 			}
 			#right #home {
-				background-image: url("./img_parallax.jpg");
-				background-attachment: fixed;
-				background-position: center;
-				background-repeat: repeat;
-				background-size: cover;
+				
 				height: 96%;
 				width: 88%;
 				left: 12.6%;

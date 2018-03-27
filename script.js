@@ -91,24 +91,24 @@
 				
 				
 				
-				if ( varsidebar == 0 && desktop == 0 ) {
+				if ( varsidebar == 1 && desktop == 0 ) {
 					$('#sidebar').slideUp(100);
 					$("#sidebar").animate({width: '0em'});
 					$("#header").animate({
-						width: '7em',
+						width: '9em',
 						'border-bottom-right-radius': '0.5em',
 						'border-top-right-radius': '0.5em'
 					});
 					$("#headerspam").animate({'font-size': '0em'});
 					varsidebar = 1;
-				} else if ( varsidebar == 1 && desktop == 0 ) {
+				} else if ( varsidebar == 0 && desktop == 0 ) {
 					$('#sidebar').slideDown(100);
 					$("#sidebar").animate({width: '80%'});
 					$("#header").animate({
 						width: '80%',
 						'border-radius': '0em'
 					});
-					$("#headerspam").animate({'font-size': '1.2em'});
+					$("#headerspam").animate({'font-size': '5em'});
 					varsidebar = 0;
 				}
 			}

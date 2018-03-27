@@ -6,7 +6,8 @@
 					//var newLeft = $('#home').left() - 30;
 					$("#home").animate({
 						width: '100%',
-						left: '0'
+						width: '+=15em',
+						left: '-=15em'
 					});
 					varsidebar = 1;
 				} else {
@@ -16,7 +17,7 @@
 					$("#home").animate({
 						width: '100%',
 						width: '-=15em',
-						left: '15em'
+						left: '+=15em'
 					});
 					varsidebar = 0;
 				}

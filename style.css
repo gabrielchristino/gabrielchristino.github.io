@@ -364,7 +364,7 @@
 			header button {
 				position: absolute;
 				font-size: 6em;
-				top: -0.6em;
+				top: -0.5em;
 				left: 0em;
 				border: none;
 				color: #f4f4f4;
@@ -452,7 +452,7 @@
 				text-align: left;
 				border-radius: 0.26em;
 				background-color: #ffffff;
-				width: calc(100% - 2em);
+				width: calc(100% - 2.5em);
 				padding-bottom: 0.3em;
 				margin-left: 2em;
 				margin-right: 0;

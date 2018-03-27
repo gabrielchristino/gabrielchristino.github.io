@@ -2,22 +2,56 @@
 			function sidebarshow() {
 				if ( varsidebar == 0 ) {
 					$('#sidebar').slideUp(500);
-					//var newWidth = $('#home').width() + 30;
-					//var newLeft = $('#home').left() - 30;
 					$("#home").animate({
-						//width: '100%',
 						width: '+=15em',
 						left: '-=15em'
+					});
+					$("#sobre").animate({
+						width: '+=15em',
+						left: '-=15em'
+					});
+					$("#strtcode").animate({
+						width: '+=15em',
+						left: '-=15em'
+					});
+					$("#tips").animate({
+						width: '+=15em',
+						left: '-=15em'
+					});
+					$("#pogs").animate({
+						width: '+=15em',
+						left: '-=15em'
+					});
+					$("#titulo").animate({
+						width: '-=15em',
+						left: '+=15em'
 					});
 					varsidebar = 1;
 				} else {
 					$('#sidebar').slideDown(500);
-					//var newWidth = $('#home').width() - 30;
-					//var newLeft = $('#home').left() + 30;
 					$("#home").animate({
-						//width: '100%',
 						width: '-=15em',
 						left: '+=15em'
+					});
+					$("#sobre").animate({
+						width: '-=15em',
+						left: '+=15em'
+					});
+					$("#strtcode").animate({
+						width: '-=15em',
+						left: '+=15em'
+					});
+					$("#tips").animate({
+						width: '-=15em',
+						left: '+=15em'
+					});
+					$("#pogs").animate({
+						width: '-=15em',
+						left: '+=15em'
+					});
+					$("#titulo").animate({
+						width: '+=15em',
+						left: '-=15em'
 					});
 					varsidebar = 0;
 				}

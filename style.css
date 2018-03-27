@@ -11,6 +11,8 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				z-index: -25;
+				filter: sepia(60%);
+				filter:blur(1px);
 			}
 			body {
 				font-family: verdana;
@@ -45,9 +47,9 @@
 				cursor: pointer;
 				display: inline-block;
 				-webkit-appearance: none;
-				left: -0.4em;
-				width: 1.5em;
-				height: 1.5em;
+				left: -0.3em;
+				width: 1.8em;
+				height: 1.8em;
 				transform: rotate(90deg);
 				-o-transform: rotate(90deg);
 				-ms-transform: rotate(90deg);

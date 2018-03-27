@@ -20,17 +20,6 @@
 						return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 					}
 				};
-				
-				if( isMobile.any() ) {
-					desktop = 0;
-					document.getElementById('btnsidebar').innerText="|||";
-				} else {
-					desktop = 1;
-				}
-			}
-			
-			function sidebar() {
-				$("#sidebar").slideToggle(500);
 			}
 			function phome() {
 				document.getElementById('home').style.display = 'block';
@@ -72,10 +61,6 @@
 				document.getElementById('pogs').style.display = 'block';
 				sidebar();
 			}
-			function postopen(postagem) {
-				$(postagem).slideToggle(500);
-			}
-			
 			function fprox(numero) {
 				numfoto = "img" + numero;
 				document.getElementById(numfoto).style.display = 'inline-block';

@@ -27,12 +27,12 @@
 				left: 0;
 				height: 4em;
 				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
-				background-color: #405080;
+				background-color: #304070;
 				color: #f4f4f4;
 				z-index: 5;
 			}
 			header spam {
-				font-size: 1.5em;
+				font-size: 1.2em;
 				top: 0.2em;
 				left: 2em;
 				display: inline-block;

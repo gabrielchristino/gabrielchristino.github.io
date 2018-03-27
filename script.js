@@ -54,7 +54,7 @@
 					});
 					$("#header").animate({
 						width: '2.1em',
-						'border-radius': '0em'
+						'border-radius': '0.5em'
 					});
 					$("#headerspam").animate({'font-size': '0em'});
 					varsidebar = 1;
@@ -83,7 +83,7 @@
 					});
 					$("#header").animate({
 						width: '15em',
-						'border-radius': '0.3em'
+						'border-radius': '0em'
 					});
 					$("#headerspam").animate({'font-size': '1.2em'});
 					varsidebar = 0;

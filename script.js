@@ -34,10 +34,10 @@
 				$('#pogs').slideDown(500);
 			}
 			function fprox(numero) {
-				numfoto = "img" + numero;
+				numfoto = "#img" + numero;
 				$(numfoto).animate({display = 'inline-block'});
 				numero = numero - 1;
-				numfoto = "img" + numero;
+				numfoto = "#img" + numero;
 				$(numfoto).animate({display = 'none'});
 			}
 			function fante(numero) {

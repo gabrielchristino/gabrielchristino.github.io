@@ -319,7 +319,7 @@
 				height: auto;
 			}
 			#codigo {
-				display: block;
+				display: inline-block;
 				border-style: solid;
 				border-width: 1px;
 				width: 60%;
@@ -653,7 +653,7 @@
 				font-size: 3em;
 			}
 			#codigo {
-				display: block;
+				display: inline-block;
 				border-style: solid;
 				border-width: 1px;
 				width: 60%;

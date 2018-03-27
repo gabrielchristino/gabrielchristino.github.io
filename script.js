@@ -108,7 +108,10 @@
 						width: '80%',
 						'border-radius': '0em'
 					});
-					$("#headerspam").animate({'font-size': '5em'});
+					$("#headerspam").animate({
+						'font-size': '4em',
+						left: '5em'
+					});
 					varsidebar = 0;
 				}
 			}

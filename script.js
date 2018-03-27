@@ -2,7 +2,8 @@
 			function sidebarshow() {
 				if ( varsidebar == 0 ) {
 					$('#sidebar').slideUp(500);
-					$("#home").animate({widht: '100%'});
+					var newWidth = $('#home').width() + 30;
+					$("#home").animate({width: newWidth});
 					varsidebar = 1;
 				} else {
 					$('#sidebar').slideDown(500);

@@ -1,7 +1,8 @@
 			var varsidebar = 0;
 			function sidebarshow() {
 				if ( varsidebar == 0 ) {
-					$('#sidebar').slideUp(500);
+					$('#sidebar').slideUp(100);
+					$("#sidebar").animate({width: '0em'});
 					$("#home").animate({
 						width: '+=15em',
 						left: '-=15em'
@@ -29,7 +30,8 @@
 					$("#headerspam").animate({'font-size': '0em'});
 					varsidebar = 1;
 				} else {
-					$('#sidebar').slideDown(500);
+					$('#sidebar').slideDown(100);
+					$("#sidebar").animate({width: '15em'});
 					$("#home").animate({
 						width: '-=15em',
 						left: '+=15em'

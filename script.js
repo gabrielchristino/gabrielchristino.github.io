@@ -22,10 +22,7 @@
 						width: '+=15em',
 						left: '-=15em'
 					});
-					$("#titulo").animate({
-						width: '-=14em',
-						left: '+=30em'
-					});
+					$("#titulo").animate({left: '+=15em'});
 					varsidebar = 1;
 				} else {
 					$('#sidebar').slideDown(500);
@@ -49,10 +46,7 @@
 						width: '-=15em',
 						left: '+=15em'
 					});
-					$("#titulo").animate({
-						width: '+=14em',
-						left: '-=30em'
-					});
+					$("#titulo").animate({left: '-=15em'});
 					varsidebar = 0;
 				}
 			}

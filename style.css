@@ -23,7 +23,7 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 3.5em;
+				height: 4em;
 				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
 				background-color: #405080;
 				color: #f4f4f4;
@@ -194,8 +194,8 @@
 				position: absolute;
 				width: 13%;
 				min-width: 8em;
-				height: calc(100% - 2.5em);
-				top: 2.5em;
+				height: calc(100% - 3.7em);
+				top: 3.7em;
 				left: 0;
 				display: block;
 				background-color: rgba(0, 0, 0, 0);

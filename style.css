@@ -345,7 +345,7 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 9em;
+				height: 9.1em;
 				width: 9em;
 				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
 				background-color: #304070;
@@ -536,7 +536,7 @@
 				top: 0;
 				background-color: #405080;
 				color: #f4f4f4;
-				font-size: 3em;
+				font-size: 3.5em;
 				box-shadow: 0.2em 0 0.2em rgba(204, 204, 204, 0.4);
 			}
 			left #bar ul {

@@ -338,22 +338,22 @@
 			}
 			body {
 				font-family: verdana;
-				font-size: 5em;
+				font-size: 2em;
 				overflow: hidden;
 			}
 			header {
-				width: 20em;
+				width: 80%;
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 20em;
+				height: 2em;
 				box-shadow: 0 0.2em 0.2em rgba(204, 204, 204, 0.4);
 				background-color: #304070;
 				color: #f4f4f4;
 				z-index: 5;
 			}
 			header spam {
-				font-size: 5em;
+				font-size: 2em;
 				top: 1em;
 				left: 2em;
 				display: inline-block;
@@ -361,7 +361,7 @@
 			}
 			header button {
 				position: absolute;
-				font-size: 5em;
+				font-size: 2em;
 				border: none;
 				color: #f4f4f4;
 				background-color: rgba(0, 0, 0, 0);
@@ -446,7 +446,7 @@
 			#right #strtcode #titulo,
 			#right #tips #titulo,
 			#right #pogs #titulo {
-				font-size: 5em;
+				font-size: 2em;
 				text-align: left;
 				border-radius: 0.26em;
 				background-color: #ffffff;

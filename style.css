@@ -241,7 +241,7 @@
 				margin-bottom: 0.2em;
 			}
 			#galeria {
-				border-radius: 0.5em;
+				border-radius: 0.6em;
 				background-color: #ffffff;
 				box-shadow: 0 0 0.3em #dddddd;
 				text-align: center;
@@ -264,7 +264,7 @@
 				display: block;
 			}
 			#galeria .imagem .prox {
-				border-radius: 0.5em;
+				border-radius: 0.3em;
 				font-size: 2em;
 				float: right;
 				right: 2%;
@@ -277,7 +277,7 @@
 				color: #f4f4f4;
 			}
 			#galeria .imagem .ante {
-				border-radius: 0.5em;
+				border-radius: 0.3em;
 				font-size: 2em;
 				float: left;
 				left: 2%;

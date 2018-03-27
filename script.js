@@ -23,13 +23,12 @@
 				
 				if( isMobile.any() ) {
 					desktop = 0;
-					sidebarshow();
 				} else {
 					desktop = 1;
 				}
 			}
 			function sidebarshow() {
-				if ( varsidebar == 0 ) {
+				if ( varsidebar == 0 && desktop == 1 ) {
 					$('#sidebar').slideUp(100);
 					$("#sidebar").animate({width: '0em'});
 					$("#home").animate({
@@ -54,11 +53,12 @@
 					});
 					$("#header").animate({
 						width: '2.1em',
-						'border-radius': '0.5em'
+						'border-bottom-right-radius': '0.5em',
+						'border-top-right-radius': '0.5em'
 					});
 					$("#headerspam").animate({'font-size': '0em'});
 					varsidebar = 1;
-				} else {
+				} else if ( varsidebar == 1 && desktop == 1 ) {
 					$('#sidebar').slideDown(100);
 					$("#sidebar").animate({width: '15em'});
 					$("#home").animate({

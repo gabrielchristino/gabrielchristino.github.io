@@ -23,8 +23,8 @@
 						left: '-=15em'
 					});
 					$("#titulo").animate({
-						width: '-=15em',
-						left: '+=15em'
+						width: '-=14em',
+						left: '+=30em'
 					});
 					varsidebar = 1;
 				} else {
@@ -50,8 +50,8 @@
 						left: '+=15em'
 					});
 					$("#titulo").animate({
-						width: '+=15em',
-						left: '-=15em'
+						width: '+=14em',
+						left: '-=30em'
 					});
 					varsidebar = 0;
 				}

@@ -22,7 +22,7 @@
 						width: '+=15em',
 						left: '-=15em'
 					});
-					$("#left").animate({width: '2em'});
+					$("#header").animate({width: '2em'});
 					varsidebar = 1;
 				} else {
 					$('#sidebar').slideDown(500);
@@ -46,7 +46,7 @@
 						width: '-=15em',
 						left: '+=15em'
 					});
-					$("#left").animate({width: '15em'});
+					$("#header").animate({width: '15em'});
 					varsidebar = 0;
 				}
 			}

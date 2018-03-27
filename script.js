@@ -32,15 +32,10 @@
 			
 			function sidebar() {
 				if ( desktop == 0 ) {
-					var y = document.getElementById('sidebar');
-						if (y.style.display === 'block') {
-							y.style.display = 'none';
-							document.getElementById('btnsidebar').innerText="|||";
-						} else {
-							y.style.display = 'block';
-							document.getElementById('btnsidebar').innerText="×";
-						}
+					function(){
+						$("#dropdown-content2").slideToggle(500);
 					}
+				}
 			}
 			function phome() {
 				document.getElementById('home').style.display = 'block';

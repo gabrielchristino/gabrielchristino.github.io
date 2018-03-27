@@ -2,11 +2,13 @@
 			function sidebarshow() {
 				if ( varsidebar == 0 ) {
 					$('#sidebar').slideUp(500);
-					$("#right").animate({widht: '100%'});
+					$("#home").animate({widht: '100%'});
+					varsidebar = 1;
 				} else {
 					$('#sidebar').slideDown(500);
-					var newWidth = $('#right').width() - 30;
-					$("#right").animate({width: newWidth});
+					var newWidth = $('#home').width() - 30;
+					$("#home").animate({width: newWidth});
+					varsidebar = 0;
 				}
 			}
 			function phome() {

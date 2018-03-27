@@ -23,7 +23,6 @@
 				
 				if( isMobile.any() ) {
 					desktop = 0;
-					//document.getElementById('sidebar').style.display = 'none';
 					document.getElementById('btnsidebar').innerText="|||";
 				} else {
 					desktop = 1;
@@ -31,9 +30,7 @@
 			}
 			
 			function sidebar() {
-				if ( desktop == 0 ) {
-					$("#sidebar").slideToggle(500);
-				}
+				$("#sidebar").slideToggle(500);
 			}
 			function phome() {
 				document.getElementById('home').style.display = 'block';
@@ -76,20 +73,7 @@
 				sidebar();
 			}
 			function postopen(postagem) {
-				var x = document.getElementById(postagem);
-				if ( desktop == 0 ) {
-					if (x.style.display === 'block') {
-						x.style.display = 'none';
-					} else {
-						x.style.display = 'block';
-					}
-				} else {
-					if (x.style.display === 'inline-block') {
-						x.style.display = 'none';
-					} else {
-						x.style.display = 'inline-block';
-					}
-				}
+				$(postagem).slideToggle(500);
 			}
 			
 			function fprox(numero) {

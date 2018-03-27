@@ -372,10 +372,10 @@
 				cursor: pointer;
 				display: inline-block;
 				-webkit-appearance: none;
-				left: -0.3em;
+				left: -1em;
 				top: 0em;
-				width: 2em;
-				height: 5em;
+				width: 5em;
+				height: 2em;
 				transform: rotate(90deg);
 				-o-transform: rotate(90deg);
 				-ms-transform: rotate(90deg);

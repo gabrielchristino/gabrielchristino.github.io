@@ -254,11 +254,12 @@
 			}
 			left #bar img {
 				border-radius: 0.5em;
-				display: inline-block;
+				display: block;
 				cursor: pointer;
 				width: 100%;
 				min-width: 4em;
-				max-width: 9em;
+				left: auto;
+				right: auto;
 				height: auto;
 				vertical-align: middle;
 				margin-bottom: 0.8em;

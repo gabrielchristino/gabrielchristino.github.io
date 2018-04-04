@@ -253,7 +253,7 @@
 				box-shadow: 0.2em 0 0.2em rgba(204, 204, 204, 0.4);
 			}
 			left #bar img {
-				border-radius: 0.5em;
+				border-radius: 50%;
 				display: block;
 				cursor: pointer;
 				width: 100%;

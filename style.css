@@ -252,6 +252,19 @@
 				font-size: 1em;
 				box-shadow: 0.2em 0 0.2em rgba(204, 204, 204, 0.4);
 			}
+			left #bar img {
+				border-radius: 0.5em;
+				display: inline-block;
+				cursor: pointer;
+				width: 25%;
+				min-width: 4em;
+				max-width: 9em;
+				height: auto;
+				vertical-align: middle;
+				margin-bottom: 0.8em;
+				margin-left: 0.8em;
+				margin-top: 0.8em;
+			}
 			left #bar ul {
 				list-style-type: none
 				margin: 0.3em;

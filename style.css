@@ -153,6 +153,14 @@
 				margin-bottom: 1em;
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
+			#right #sobre #post p {
+				background-color: rgba(0, 0, 0, 0);
+				margin-left: 0.8em;
+				margin-right: 0.8em;
+				font-size: 20px;
+				cursor: pointer;
+				display: inline-block;
+			}
 			#right #home #post {
 				border-radius: 0.5em;
 				background-color: #ffffff;
@@ -181,6 +189,7 @@
 			#right #home #post p {
 				background-color: rgba(0, 0, 0, 0);
 				margin-left: 0.8em;
+				margin-right: 0.8em;
 				font-size: 20px;
 				cursor: pointer;
 				display: inline-block;

@@ -153,6 +153,19 @@
 				margin-bottom: 1em;
 				box-shadow: 0 0 0.2em rgba(204, 204, 204, 0.9);
 			}
+			#right #sobre #post img {
+				border-radius: 0.5em;
+				display: inline-block;
+				cursor: pointer;
+				width: 25%;
+				min-width: 4em;
+				max-width: 9em;
+				height: auto;
+				vertical-align: middle;
+				margin-bottom: 0.8em;
+				margin-left: 0.8em;
+				margin-top: 0.8em;
+			}
 			#right #sobre #post p {
 				background-color: rgba(0, 0, 0, 0);
 				margin-left: 0.8em;
@@ -160,6 +173,18 @@
 				font-size: 20px;
 				cursor: pointer;
 				display: inline-block;
+			}
+			#right #sobre #post spam {
+				float: right;
+				top: 0;
+				right: 0.1em;
+				display: block;
+				font-weight: normal;
+				font-size: 14px;
+			}
+			#right #sobre #post div {
+				display: none;
+				background-color: rgba(0, 0, 0, 0);
 			}
 			#right #home #post {
 				border-radius: 0.5em;

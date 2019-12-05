@@ -60,12 +60,6 @@
             width: 100%;
             padding: 0.3em 0 0.3em 0;
         }
-        .menu ul li a {
-            text-decoration: none;
-        }
-        .menu ul li a:visited {
-            color: #ddd;
-        }
         .corpo {
             position: absolute;
             display: block;
@@ -146,12 +140,13 @@
         </div>
             <div class="menu" id="menu">
                 <ul>
-                    <li><a href="#sobre">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li>About</li>
+                    <li onclick="irPara('#home')">Home</li>
+                    <li onclick="irPara('#sobre')">About</li>
+                    <li onclick="irPara('#experience')">Experience</li>
                 </ul>
             </div>
         <div class="corpo">
+                <a id="home"></a>
             <div class="postA blue">
                 <p class="nome">GABRIEL CHRISTINO</p>
                 <p class="dev">ANGULAR and .NET WEB DEVELOPER</p>
@@ -182,6 +177,15 @@
     </div>
     <script>
         function abrirmenu() {
+            menu = document.getElementById("menu");
+            if ( menu.style.display !== "block" ){
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "none";
+            }
+        }
+        function irPara(caminho) {
+            window.location.href=caminho;
             menu = document.getElementById("menu");
             if ( menu.style.display !== "block" ){
                 menu.style.display = "block";

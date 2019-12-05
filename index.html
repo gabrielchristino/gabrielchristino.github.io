@@ -1,168 +1,194 @@
 <html>
-	<head>
-		<title>Gabriel Christino</title>
-        <meta charset="UTF-8">
-        <meta lang="pt-BR">
-		<script type="text/javascript" src="script.js" defer></script>
-		<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 480px)" href="style.css" />
-		<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="style.css" />
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	</head>
-	<body onload="inicio()">
-		<div class="parallax"></div>
-		<header id="header"><button id="btnsidebar" onclick="sidebarshow();">|||</button><spam id="headerspam">Gabriel Christino</spam></header>
-		<left id="sidebar">
-			<div id="bar">
-				<img src="./img/perfil.jpg" id="profileimg">
-				<ul>
-					<li onclick="phome();"><i class="material-icons">home</i>Home</li>
-					<li onclick="psobre();"><i class="material-icons">people</i>Sobre mim</li>
-					<li onclick="pstrtcode();"><i class="material-icons">code</i>Comece a programar</li>
-					<li onclick="ptips();"><i class="material-icons">lightbulb_outline</i>Dicas</li>
-					<li onclick="ppogs();"><i class="material-icons">error_outline</i>POGs</li>
-				<ul>
-			</div>
-			<div id="out" onclick="sidebar();"></div>
-		</left>
-			
-		<div id="right">
-			<div id="home">
-				<p id="titulo">Home</p>
-				
-				<div id="post">
-					<img src="https://thumbs.dreamstime.com/b/css-html-code-28095139.jpg" onclick="$('#corpo').slideToggle(500);"><spam>São Caetano, SP — Jan 2018-Atual</spam>
-					<p onclick="$('#corpo').slideToggle(500);">ESPECIALISTA DE AUTOMAÇÃO, PROXXI »</p>
-					<div id="corpo">
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;Trabalho desenvolvendo automações e soluções para a extração de métricas e resultados da ferramenta do cliente, visando a redução do custo, tempo e trabalho necessário na realização das tarefas, utilizando Auto HotKey, VBScript, VBA.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Construção sistema web de monitoramento e acionamento remoto das automações.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;Reduzi o tempo gasto com a extração e análise de métricas de um terço do dia para alguns minutos e aumentei a frequência e a facilidade com a qual a liderança pode ter acesso a esses dados.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skills:
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Desenvolvimento em HTML / CSS / PHP / MySQL / JavaScript / Active X.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Scripts em VBS, VBA, VB6 e Batch para execução de tarefas no computador.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Automatização de processos com Auto HotKey e Auto IT.
-
-						</p>
-					</div>
-				</div>
-			</div>
-			<div id="sobre">
-				<p id="titulo">Gabriel Christino</p>
-				
-				<div id="post">
-					<img src="./img/perfil.jpg" id="profileimg">
-					<p>&nbsp;&nbsp;&nbsp;&nbsp;Programador e inventor por hobby e profissão<br></p>
-					<div style="display: block;">
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;Iniciei minha carreira no atendimento de suporte ao usuário no primeiro nível, em microinformática, passando por Suporte Técnico e Líder de uma das maiores operações da IBM (TV Globo), dando suporte e treinamentos ao time.
-							<br>&nbsp;&nbsp;&nbsp;&nbsp;Trouxe redução de custo e tempo, aumentando a eficiência e qualidade com automações com solução de RPA (Robotic Process Automation) em Auto HotKey ; Criação de plugins em JavaScript, para os navegadores Internet Explorer, Chrome e FireFox.
-							<br>&nbsp;&nbsp;&nbsp;&nbsp;Atualmente estou focado e trabalhando com o desenvolvimento de automações e soluções que visam a extração, consolidação e melhoria de métricas.
-							<br>&nbsp;&nbsp;&nbsp;&nbsp;Tenho conhecimento nas linguagens web: HTML / JavaScript / CSS / PHP / MySQL / ActiveX.
-							<br>&nbsp;&nbsp;&nbsp;&nbsp;E automatização de processos com Auto HotKey, Auto IT, VBS, VBA, VB6.
-						</p>
-					</div>
-				</div>
-				<div id="post">
-					<img src="https://thumbs.dreamstime.com/b/css-html-code-28095139.jpg" onclick="$('#corpo3').slideToggle(500);"><spam>São Caetano, SP — Jan 2018-Atual</spam>
-					<p onclick="$('#corpo3').slideToggle(500);">ESPECIALISTA DE AUTOMAÇÃO, PROXXI »</p>
-					<div id="corpo3">
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;Trabalho desenvolvendo automações e soluções para a extração de métricas e resultados da ferramenta do cliente, visando a redução do custo, tempo e trabalho necessário na realização das tarefas, utilizando Auto HotKey, VBScript, VBA.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Construção sistema web de monitoramento e acionamento remoto das automações.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;Reduzi o tempo gasto com a extração e análise de métricas de um terço do dia para alguns minutos e aumentei a frequência e a facilidade com a qual a liderança pode ter acesso a esses dados.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skills:
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Desenvolvimento em HTML / CSS / PHP / MySQL / JavaScript / Active X.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Scripts em VBS, VBA, VB6 e Batch para execução de tarefas no computador.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Automatização de processos com Auto HotKey e Auto IT.
-
-						</p>
-					</div>
-				</div>
-				<div id="post">
-					<img src="./img/headset.jpg" onclick="$('#corpo2').slideToggle(500);"><spam>São Paulo, SP — 2014-2017</spam>
-					<p onclick="$('#corpo2').slideToggle(500);">SUPERVISOR HELPDESK, IBM »</p>
-					<div id="corpo2">
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;Responsável pelo treinamento do time para o atendimento ao usuário.
-						<br>&nbsp;&nbsp;&nbsp;Implementação de novos processos realizados em primeiro nível, right to left, redução do tempo para a entrega da solução. Melhoria na entrega dos resultados e satisfação do cliente após a análise dos casos e implementação de soluções, automações e mudanças.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;Atingindo a redução dos desvios em procedimentos para menos de 1%, elevando a satisfação do cliente para mais de 97%.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skills:
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Liderança do time.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Acompanhamento de desvios proativamente.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Acompanhamento e controle da qualidade de entrega dos resultados.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Implementação de novos processos aumentando a efetividade no primeiro nível.
-						</p>
-					</div>
-				</div>
-				<div id="post">
-					<img src="./img/headset.jpg" onclick="$('#corpo1').slideToggle(500);"><spam>São Paulo, SP — 2012-2014</spam>
-					<p onclick="$('#corpo1').slideToggle(500);">ANALISTA SERVICE DESK, IBM »</p>
-					<div id="corpo1">
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;Atendimento ao usuário fornecendo suporte em primeiro nível de microinformática, pacote Office, Outlook, IBM Lotus Notes e outras ferramentas próprias dos clientes.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo diversos destaques no atendimento e elogios do cliente.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skills:
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Windows.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Pacote Office.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Active Directory.
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•IBM Lotus Notes / Outlook.
-						</p>
-					</div>
-				</div>
-					<div id="galeria">
-						<div id="img1" class="imagem">
-								<div class="ante" onclick="fante(1);">«</div>
-							<img src="./img/chronusclock1.jpg" class="sobreimg">
-								<div class="prox" onclick="fprox(2);">»</div>
-								<div id="descimg">Carenagem e Arduino</div>
-						</div>
-						<div id="img2" class="imagem">
-								<div class="ante" onclick="fante(1);">«</div>
-							<img src="./img/chronusclock2.jpg" class="sobreimg">
-								<div class="prox" onclick="fprox(3);">»</div>
-								<div id="descimg">Relógio montado - carregador em teste<br>Tela de configuração remota</div>
-						</div>
-						<div id="img3" class="imagem">
-								<div class="ante" onclick="fante(2);">«</div>
-							<img src="./img/chronusclock3.jpg" class="sobreimg">
-								<div class="prox" onclick="fprox(4);">»</div>
-								<div id="descimg">Calendário Compacto</div>
-						</div>
-						<div id="img4" class="imagem">
-								<div class="ante" onclick="fante(3);">«</div>
-							<video class="sobreimg" controls>
-								<source  src="./img/chronusclock3.mp4" type="video/mp4">
-							</video>
-								<div class="prox" onclick="fprox(5);">»</div>
-								<div id="descimg">Teste da primeira versão do relógio<br>Matriz de LED</div>
-						</div>
-						<div id="img5" class="imagem">
-								<div class="ante" onclick="fante(4);">«</div>
-							<img src="./img/car2.jpg" class="sobreimg">
-								<div class="prox" onclick="fprox(6);">»</div>
-								<div id="descimg">Carro controlado via Bluetooth</div>
-						</div>
-						<div id="img6" class="imagem">
-								<div class="ante" onclick="fante(5);">«</div>
-							<img src="./img/car3.jpg" class="sobreimg">
-								<div class="prox" onclick="fprox(7);">»</div>
-								<div id="descimg">Arduino UNO, Motor Shield e Bluetooth HC-05</div>
-						</div>
-						<div id="img7" class="imagem">
-								<div class="ante" onclick="fante(6);">«</div>
-							<img src="./img/car4.jpg" class="sobreimg">
-								<div class="prox" onclick="fprox(7);">»</div>
-								<div id="descimg">Arduino UNO, Motor Shield e Bluetooth HC-05</div>
-						</div>
-					</div>
-			</div>
-			<div id="strtcode">
-				<p id="titulo">Comece a programar</p>
-			</div>
-			<div id="tips">
-				<p id="titulo">Dicas</p>
-			</div>
-			<div id="pogs">
-				<p id="titulo">Programação Orientada a Gambiarras</p>
-			</div>
-		
-		</div>
-		<footer></footer>
-	</body>
+<head>
+    <title></title>
+    <style>
+        body {
+            overflow: hidden;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #444;
+        }
+        .top-bar {
+            position: fixed;
+            display: block;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10em;
+            z-index: 2;
+            background-color: #588;
+            overflow: hidden;
+            box-shadow: 0 0 0.5em #000;
+            color: rgb(27, 49, 49);
+        }
+        .top-bar .button-bar {
+            position: fixed;
+            display: block;
+            margin: 0.5em 1em 0.3em 0.3em;
+            padding: 0 0.4em 0.1em 0.4em;
+            font-size: 4em;
+            border: 1.6px solid #599;
+            cursor: pointer;
+        }
+        .top-bar .title-bar {
+            position: absolute;
+            display: none;
+            float: right;
+            margin-top: 0.4em;
+            right: 0.2em;
+            font-size: 4.8em;
+        }
+        .menu {
+            position: absolute;
+            display: none;
+            top: 10em;
+            left: 0;
+            width: 100%;
+            font-site: 2em;
+            z-index: 5;
+            color: #ddd;
+            text-align: center;
+            font-weight: 100;
+            background-color: rgb(27, 49, 49);
+        }
+        .menu ul {
+            margin: 0;
+            list-style: none;
+        }
+        .menu ul li {
+            font-size: 4.8em;
+            width: 100%;
+            padding: 0.3em 0 0.3em 0;
+        }
+        .menu ul li a {
+            text-decoration: none;
+        }
+        .menu ul li a:visited {
+            color: #ddd;
+        }
+        .corpo {
+            position: absolute;
+            display: block;
+            top: 0em;
+            left: 0;
+            height: calc(100% - 0em);
+            overflow-y: auto;
+            overflow-x: hidden;
+            background-color: #eee;
+        }
+        .postA {
+            background-image: url("https://raw.githubusercontent.com/gabrielchristino/gabrielchristino.github.io/master/img_parallax.jpg");
+            margin-top: 1.6em;
+            height: calc(100% - 10em);
+            padding: 0 1em 0 1em;
+        }
+        .postA .nome {
+            text-align: center;
+            font-weight: 300;
+            font-size: 10em;
+            padding-top: calc(50%);
+        }
+        .postA .dev {
+            text-align: center;
+            font-weight: 300;
+            font-size: 3.5em;
+        }
+        .post {
+            margin-top: 1.6em;
+            padding: 6em 5em 8em 5em;
+        }
+        .post .titleGrey {
+            text-align: center;
+            font-weight: 300;
+            font-size: 5.4em;
+            color: #FF675F;
+        }
+        .post .titleBlue {
+            text-align: center;
+            font-weight: 300;
+            font-size: 5.4em;
+            color: #ddd;
+        }
+        .post .parag {
+            text-align: left;
+            font-weight: 400;
+            font-size: 2.7em;
+        }
+        .post .parag .b1 {
+            text-align: left;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        .post .parag .b2 {
+            text-align: left;
+            font-weight: 400;
+            font-size: 1.1em;
+        }
+        .ancora {
+            marging-top: 2em;
+        }
+        .grey {
+            background-color: #eee;
+            color: #333;
+        }
+        .blue {
+            color: #ddd;
+            background-color: #00BCBD;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+</head>
+<body>
+    <div>
+        <div class="top-bar">
+            <div class="button-bar" onclick="abrirmenu()">&#9776</div>
+            <div class="title-bar">Gabriel Christino</div>
+        </div>
+            <div class="menu" id="menu">
+                <ul>
+                    <li><a href="#sobre">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li>About</li>
+                </ul>
+            </div>
+        <div class="corpo">
+            <div class="postA blue">
+                <p class="nome">GABRIEL CHRISTINO</p>
+                <p class="dev">ANGULAR and .NET WEB DEVELOPER</p>
+            </div>
+                <a id="sobre" class="ancora"></a>
+            <div class="post blue">
+                <p class="titleBlue">A B O U T&nbsp;&nbsp;M E</p>
+                <p class="parag">
+                    <b class="b1">Gabriel Christino Cordeiro dos Santos</b>
+                    <b class="b2">Developer and maker for passion in Brazil</b>
+                </p>
+                <p class="parag">I'm studying Computer engineering, I've been working with develop since 2017
+                and currently I'm working as Angular developer at IBM</p>
+                <p class="parag">I love new challenges and the maker world! I like to work in group and share knowledge.</p>
+            </div>
+                <a id="experience" class="ancora"></a>
+            <div class="post grey">
+                <p class="titleGrey">E X P E R I E N C E</p>
+                <p class="parag">
+                    <b class="b1">Gabriel Christino Cordeiro dos Santos</b>
+                    <b class="b2">Developer and maker for passion in Brazil</b>
+                </p>
+                <p class="parag">I'm studying Computer engineering, I've been working with develop since 2017
+                and currently I'm working as Angular developer at IBM</p>
+                <p class="parag">I love new challenges and the maker world! I like to work in group and share knowledge.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function abrirmenu() {
+            menu = document.getElementById("menu");
+            if ( menu.style.display !== "block" ){
+                menu.style.display = "block";
+            } else {
+                menu.style.display = "none";
+            }
+        }
+    </script>
+</body>
 </html>

@@ -88,6 +88,7 @@ body {
 .post {
 		margin-top: 0em;
 		padding: 6em 5em 8em 5em;
+		min-height: calc(100% - 10em);
 }
 .titleGrey {
 		text-align: center;

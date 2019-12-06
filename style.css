@@ -122,6 +122,28 @@ body {
   margin: 0 1em 0 1em;
   box-shadow: 0 0 0.3em #666;
 }
+.bubble{
+  padding: 1.5em;
+  background-color: #fff;
+  margin: 0 1em 0 1em;
+  box-shadow: 0 0 0.3em #666;
+}
+.boxWhite::after {
+  background-color: #fff;
+  box-shadow: -2px 2px 2px 6px rgba( 178, 178, 178, .4 );
+  content: "\00a0";
+  display: block;
+  height: 1em;
+  left: -10px;
+  position: relative;
+  top: 20px;
+  transform: rotate( 45deg );
+  -moz-transform: rotate( 45deg );
+  -ms-transform: rotate( 45deg );
+  -o-transform: rotate( 45deg );
+  -webkit-transform: rotate( 45deg );
+  width: 1em;
+}
 .ancora {
 		padding-top: 10em;
 }

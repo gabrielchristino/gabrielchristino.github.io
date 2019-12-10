@@ -7,7 +7,6 @@ function abrirmenu() {
 		}
 }
 function irPara(hash) {
-		window.location.href=hash;
 		menu = document.getElementById("menu");
 		if ( window.innerWidth <= 1080 ) {
 			if ( menu.style.display !== "block" ){
@@ -16,4 +15,6 @@ function irPara(hash) {
 					menu.style.display = "none";
 			}
 		}
+		const position = document.getElementById(hash).offsetTop;
+		$(".corpo").animate({ scrollTop: position }, 1000);
 }

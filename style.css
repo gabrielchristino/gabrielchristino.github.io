@@ -37,6 +37,7 @@
 			font-size: 4em;
 			width: 100%;
 			padding: 0.5em 0 0.5em 0;
+			cursor: pointer;
 	}
 	html {
 		scroll-behavior: smooth;
@@ -170,27 +171,53 @@
 }
 
 @media only screen and (min-width: 1081px) {
-	.top-bar .button-bar {
+	html {
+		scroll-behavior: smooth;
+		font-size: 0.4em;
+	}
+	body {
+			overflow: hidden;
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			color: #444;
+	}
+	.top-bar {
 			position: fixed;
 			display: none;
-			margin: 0.5em 1em 0.3em 0.3em;
-			padding: 0 0.4em 0.1em 0.4em;
-			font-size: 4em;
-			border: 1.6px solid #599;
-			cursor: pointer;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 10em;
+			z-index: 2;
+			background-color: #588;
+			overflow: hidden;
+			box-shadow: 0 0 0.5em #000;
+			color: rgb(27, 49, 49);
 	}
-	.postA .nome {
-			text-align: center;
-			font-weight: 300;
-			font-size: 10em;
-			padding-top: calc(50% - 10em);
+	.top-bar .button-bar {
+				position: fixed;
+				display: none;
+				margin: 0.5em 1em 0.3em 0.3em;
+				padding: 0 0.4em 0.1em 0.4em;
+				font-size: 4em;
+				border: 1.6px solid #599;
+				cursor: pointer;
+		}
+	.top-bar .title-bar {
+			position: absolute;
+			display: none;
+			float: right;
+			margin-top: 0.4em;
+			right: 0.2em;
+			font-size: 4.8em;
 	}
 	.menu {
 			position: absolute;
 			display: block;
-			top: 10em;
+			top: 0;
 			left: 0;
 			width: 100%;
+			height: 10em;
 			font-size: 1em;
 			z-index: 5;
 			color: #ddd;
@@ -209,36 +236,7 @@
 			font-size: 4em;
 			width: 30%;
 			padding: 0.5em 0 0.5em 0;
-	}
-	html {
-		scroll-behavior: smooth;
-	}
-	body {
-			overflow: hidden;
-			font-family: 'Lato', sans-serif;
-			font-weight: 300;
-			color: #444;
-	}
-	.top-bar {
-			position: fixed;
-			display: block;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 10em;
-			z-index: 2;
-			background-color: #588;
-			overflow: hidden;
-			box-shadow: 0 0 0.5em #000;
-			color: rgb(27, 49, 49);
-	}
-	.top-bar .title-bar {
-			position: absolute;
-			display: none;
-			float: right;
-			margin-top: 0.4em;
-			right: 0.2em;
-			font-size: 4.8em;
+			cursor: pointer;
 	}
 	.corpo {
 			position: absolute;
@@ -255,6 +253,12 @@
 			margin-top: 0em;
 			height: calc(100% - 10em);
 			padding: 0 1em 0 1em;
+	}
+	.postA .nome {
+			text-align: center;
+			font-weight: 300;
+			font-size: 10em;
+			padding-top: calc(50% - 6em);
 	}
 	.postA .dev {
 			text-align: center;
@@ -289,7 +293,7 @@
 		margin: auto;
 		font-weight: 100;
 		color: #fff;
-		font-weight: 100;
+		font-weight: 400;
 		text-align: center;
 		font-size: 2.9em;
 		padding: 0.5em;

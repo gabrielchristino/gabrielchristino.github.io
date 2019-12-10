@@ -6,8 +6,8 @@ function abrirmenu() {
 				menu.style.display = "none";
 		}
 }
-function irPara(caminho) {
-		window.location.href=caminho;
+function irPara(hash) {
+		window.location.href=hash;
 		menu = document.getElementById("menu");
 		if ( menu.style.display !== "block" ){
 				menu.style.display = "block";
@@ -15,3 +15,6 @@ function irPara(caminho) {
 				menu.style.display = "none";
 		}
 }
+
+
+

@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 body {
 		overflow: hidden;
 		font-family: 'Lato', sans-serif;
@@ -40,7 +43,7 @@ body {
 		top: 10em;
 		left: 0;
 		width: 100%;
-		font-site: 2em;
+		font-size: 1em;
 		z-index: 5;
 		color: #ddd;
 		text-align: center;
@@ -88,14 +91,15 @@ body {
 .post {
 		margin-top: 0em;
 		padding: 6em 5em 8em 5em;
+		min-height: calc(100% - 24em);
 }
-.post .titleGrey {
+.titleGrey {
 		text-align: center;
 		font-weight: 300;
 		font-size: 5.4em;
 		color: #FF675F;
 }
-.post .titleBlue {
+.titleBlue {
 		text-align: center;
 		font-weight: 300;
 		font-size: 5.4em;
@@ -106,15 +110,50 @@ body {
 		font-weight: 400;
 		font-size: 2.7em;
 }
-.post .parag .b1 {
-		text-align: left;
-		font-weight: 600;
-		font-size: 1.1em;
+.dateBubble {
+	background-color: #00BCBD;
+	width: 50%;
+	margin: auto;
+	font-weight: 100;
+	color: #fff;
+	font-weight: 100;
+	text-align: center;
+	font-size: 2.9em;
+	padding: 0.5em;
+	border-radius: 0.3em;
 }
-.post .parag .b2 {
-		text-align: left;
-		font-weight: 400;
-		font-size: 1.1em;
+.b1 {
+	margin: -0.1em;
+}
+.b2 {
+	text-align: center;
+	font-weight: 600;
+}
+.boxWhite {
+  padding: 1.5em;
+  background-color: #fff;
+  margin: 0 1em 0 1em;
+  box-shadow: 0 0 0.1em #aaa;
+  border-radius: 0.3em;
+}
+.bubble {
+	width: 100%;
+}
+.bubble::after {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  box-shadow: -0.1em -0.1em 0.4em 0 rgba( 170, 170, 170, .4 );
+  content: "\00a0";
+  height: 3em;
+  width: 3em;
+  left: calc(50% - 2.1em);
+  top: 1.5em;
+  transform: rotate( 45deg );
+  -moz-transform: rotate( 45deg );
+  -ms-transform: rotate( 45deg );
+  -o-transform: rotate( 45deg );
+  -webkit-transform: rotate( 45deg );
 }
 .ancora {
 		padding-top: 10em;
@@ -125,5 +164,9 @@ body {
 }
 .blue {
 		background-color: #00BCBD;
+<<<<<<< HEAD
 		color: #ddd;
 }
+=======
+}
+>>>>>>> 9ee42e75993f646387a3e5af01b0fd0c853317b2

@@ -1,20 +1,23 @@
 function abrirmenu() {
 		menu = document.getElementById("menu");
 		if ( menu.style.display !== "block" ){
-				menu.style.display = "block";
+			$(".menu").css({
+				"opacity":"0",
+				"display":"block",
+			}).show().animate({opacity:1})
 		} else {
-				menu.style.display = "none";
+			$(".menu").css({
+				"opacity":"1",
+				"display":"block",
+			}).show().animate({opacity:0})
+
+			setTimeout(function() {
+	        $(menu).css('display', 'none');
+	    }, 500);
 		}
 }
 function irPara(hash) {
-		menu = document.getElementById("menu");
-		if ( window.innerWidth <= 1080 ) {
-			if ( menu.style.display !== "block" ){
-					menu.style.display = "block";
-			} else {
-					menu.style.display = "none";
-			}
-		}
+		abrirmenu();
 		const position = document.getElementById(hash).offsetTop;
 		$(".corpo").animate({ scrollTop: position }, 1000);
 }

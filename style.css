@@ -51,6 +51,7 @@ html {
 			text-align: center;
 			font-weight: 100;
 			background-color: rgb(27, 49, 49);
+			transition: all .01s linear;
 	}
 	.menu ul {
 			margin: 0;

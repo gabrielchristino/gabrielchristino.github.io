@@ -17,7 +17,10 @@ function abrirmenu() {
 		}
 }
 function irPara(hash) {
-		abrirmenu();
+		if( window.innerWidth <= 1080 ) {
+			abrirmenu();
+		}
+
 		const position = document.getElementById(hash).offsetTop;
 		$(".corpo").animate({ scrollTop: position }, 1000);
 }

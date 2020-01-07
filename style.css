@@ -138,6 +138,7 @@ html {
 	  margin: 0 1em 0 1em;
 	  box-shadow: 0 0 0.1em #aaa;
 	  border-radius: 0.3em;
+    margin-bottom: 1.5em;
 	}
 	.bubble {
 		width: 100%;
@@ -312,6 +313,7 @@ html {
 	  margin: 0 1em 0 1em;
 	  box-shadow: 0 0 0.1em #aaa;
 	  border-radius: 0.3em;
+    margin-bottom: 1.5em;
 	}
 	.bubble {
 		width: 100%;

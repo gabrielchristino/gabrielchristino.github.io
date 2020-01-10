@@ -7,9 +7,6 @@ body {
   font-weight: 300;
   color: #444;
 }
-.ancora {
-  padding-top: 10em;
-}
 .grey {
   background-color: #eee;
   color: #333;
@@ -98,7 +95,7 @@ body {
 }
 .post {
   margin-top: 0em;
-  padding: 6em 5em 8em 5em;
+  padding: 0em 5em 8em 5em;
   min-height: calc(100% - 24em);
 }
 .titleGrey {
@@ -176,12 +173,14 @@ body {
     text-align: center;
     font-weight: 100;
     background-color: rgb(27, 49, 49);
-    transition: all 0.01s linear;
+    /* transition: all 0.01s linear; */
   }
   .menu ul {
+    margin-left: auto;
+    margin-right: auto;
     margin: 0;
     list-style: none;
-    width: 100%;
+    width: 95%;
   }
   .menu ul li {
     font-size: 4em;
@@ -194,6 +193,10 @@ body {
     font-weight: 300;
     font-size: 10em;
     padding-top: 50%;
+  }
+  .ancora {
+	padding-top: 10em;
+	display: block;
   }
   .dateBubble {
     background-color: #00bcbd;
@@ -274,6 +277,9 @@ body {
   }
   .menu ul li:hover {
     background-color: #00bcbd;
+  }
+  .ancora {
+	padding-top: 10em;
   }
   .postA .nome {
     text-align: center;

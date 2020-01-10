@@ -1,13 +1,139 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #444;
+}
+.ancora {
+  padding-top: 10em;
+}
+.grey {
+  background-color: #eee;
+  color: #333;
+}
+.dgrey {
+  background-color: #889;
+  color: #ddd;
+}
+.blue {
+  background-color: #00bcbd;
+  color: #ddd;
+}
+.white {
+  background-color: #fff;
+  color: #333;
+}
+.b1 {
+  margin: -0.1em;
+}
+.b2 {
+  text-align: center;
+  font-weight: 600;
+}
+.b3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3em;
+  color: #fff;
+}
+.s1 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 3em;
+}
+.s2 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 2.8em;
+}
+.s3 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 2em;
+}
+.s4 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.6em;
+}
+.s5 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1em;
+}
+.bubble {
+  width: 100%;
+}
+.bubble::after {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  box-shadow: -0.1em -0.1em 0.4em 0 rgba(170, 170, 170, 0.4);
+  content: "\00a0";
+  height: 3em;
+  width: 3em;
+  left: calc(50% - 2.1em);
+  top: 1.5em;
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.boxWhite {
+  padding: 1.5em;
+  background-color: #fff;
+  margin: 0 1em 0 1em;
+  box-shadow: 0 0 0.1em #aaa;
+  border-radius: 0.3em;
+  margin-bottom: 1.5em;
+}
+.postA .dev {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3.5em;
+}
+.post {
+  margin-top: 0em;
+  padding: 6em 5em 8em 5em;
+  min-height: calc(100% - 24em);
+}
+.titleGrey {
+  text-align: center;
+  font-weight: 300;
+  font-size: 5.4em;
+  color: #ff675f;
+}
+.titleBlue {
+  text-align: center;
+  font-weight: 300;
+  font-size: 5.4em;
+  color: #ddd;
+}
+.post .parag {
+  font-weight: 400;
+  font-size: 2.7em;
+}
+.corpo {
+  position: absolute;
+  display: block;
+  top: 0em;
+  left: 0;
+  height: calc(100% - 0em);
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #eee;
+}
+.postA {
+  background-image: url("./img_parallax.jpg");
+  margin-top: 0em;
+  height: calc(100% - 10em);
+  padding: 0 1em 0 1em;
+}
 @media only screen and (max-width: 1080px) {
-  body {
-    overflow: hidden;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: #444;
-  }
   .top-bar .button-bar {
     position: fixed;
     display: block;
@@ -63,53 +189,11 @@ html {
     padding: 0.5em 0 0.5em 0;
     cursor: pointer;
   }
-  .corpo {
-    position: absolute;
-    display: block;
-    top: 0em;
-    left: 0;
-    height: calc(100% - 0em);
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-color: #eee;
-  }
-  .postA {
-    background-image: url("./img_parallax.jpg");
-    margin-top: 0em;
-    height: calc(100% - 10em);
-    padding: 0 1em 0 1em;
-  }
   .postA .nome {
     text-align: center;
     font-weight: 300;
     font-size: 10em;
     padding-top: 50%;
-  }
-  .postA .dev {
-    text-align: center;
-    font-weight: 300;
-    font-size: 3.5em;
-  }
-  .post {
-    margin-top: 0em;
-    padding: 6em 5em 8em 5em;
-    min-height: calc(100% - 24em);
-  }
-  .titleGrey {
-    text-align: center;
-    font-weight: 300;
-    font-size: 5.4em;
-    color: #ff675f;
-  }
-  .titleBlue {
-    text-align: center;
-    font-weight: 300;
-    font-size: 5.4em;
-    color: #ddd;
-  }
-  .post .parag {
-    font-weight: 400;
-    font-size: 2.7em;
   }
   .dateBubble {
     background-color: #00bcbd;
@@ -123,101 +207,11 @@ html {
     padding: 0.5em;
     border-radius: 0.3em;
   }
-  .b1 {
-    margin: -0.1em;
-  }
-  .b2 {
-    text-align: center;
-    font-weight: 600;
-  }
-  .b3 {
-	text-align: center;
-	font-weight: 600;
-	font-size: 1.3em;
-	color: #fff;
-  }
-  .s1 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 3em;
-  }
-  .s2 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 2.8em;
-  }
-  .s3 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 2em;
-  }
-  .s4 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 1.6em;
-  }
-  .s5 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 1em;
-  }
-  .boxWhite {
-    padding: 1.5em;
-    background-color: #fff;
-    margin: 0 1em 0 1em;
-    box-shadow: 0 0 0.1em #aaa;
-    border-radius: 0.3em;
-    margin-bottom: 1.5em;
-  }
-  .bubble {
-    width: 100%;
-  }
-  .bubble::after {
-    display: block;
-    position: relative;
-    background-color: #fff;
-    box-shadow: -0.1em -0.1em 0.4em 0 rgba(170, 170, 170, 0.4);
-    content: "\00a0";
-    height: 3em;
-    width: 3em;
-    left: calc(50% - 2.1em);
-    top: 1.5em;
-    transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
-  .ancora {
-    padding-top: 10em;
-  }
-  .grey {
-    background-color: #eee;
-    color: #333;
-  }
-  .dgrey {
-    background-color: #889;
-    color: #333;
-  }
-  .blue {
-    background-color: #00bcbd;
-    color: #ddd;
-  }
-  .white {
-    background-color: #fff;
-    color: #333;
-  }
 }
 
 @media only screen and (min-width: 1081px) {
   html {
     font-size: 0.4em;
-  }
-  body {
-    overflow: hidden;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: #444;
   }
   .top-bar {
     position: fixed;
@@ -281,54 +275,11 @@ html {
   .menu ul li:hover {
     background-color: #00bcbd;
   }
-  .corpo {
-    position: absolute;
-    display: block;
-    top: 0em;
-    left: 0;
-    height: calc(100% - 0em);
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-color: #eee;
-  }
-  .postA {
-    background-image: url("./img_parallax.jpg");
-    margin-top: 0em;
-    height: calc(100% - 10em);
-    padding: 0 1em 0 1em;
-  }
   .postA .nome {
     text-align: center;
     font-weight: 300;
     font-size: 10em;
     padding-top: calc(50% - 6em);
-  }
-  .postA .dev {
-    text-align: center;
-    font-weight: 300;
-    font-size: 3.5em;
-  }
-  .post {
-    margin-top: 0em;
-    padding: 6em 5em 8em 5em;
-    min-height: calc(100% - 24em);
-  }
-  .titleGrey {
-    text-align: center;
-    font-weight: 300;
-    font-size: 5.4em;
-    color: #ff675f;
-  }
-  .titleBlue {
-    text-align: center;
-    font-weight: 300;
-    font-size: 5.4em;
-    color: #ddd;
-  }
-  .post .parag {
-    text-align: left;
-    font-weight: 400;
-    font-size: 2.7em;
   }
   .dateBubble {
     background-color: #00bcbd;
@@ -341,91 +292,5 @@ html {
     font-size: 2.9em;
     padding: 0.5em;
     border-radius: 0.3em;
-  }
-  .b1 {
-    margin: -0.1em;
-  }
-  .b2 {
-    text-align: center;
-    font-weight: 600;
-  }
-  .b3 {
-	text-align: center;
-	font-weight: 600;
-	font-size: 1.3em;
-	color: #fff;
-  }
-  .s1 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 3em;
-  }
-  .s2 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 2.8em;
-  }
-  .s3 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 2em;
-  }
-  .s4 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 1.6em;
-  }
-  .s5 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 1em;
-  }
-  .boxWhite {
-    padding: 1.5em;
-    background-color: #fff;
-    margin: 0 1em 0 1em;
-    box-shadow: 0 0 0.1em #aaa;
-    border-radius: 0.3em;
-    margin-bottom: 1.5em;
-  }
-  .bubble {
-    width: 100%;
-  }
-  .bubble::after {
-    display: block;
-    position: relative;
-    background-color: #fff;
-    box-shadow: -0.1em -0.1em 0.4em 0 rgba(170, 170, 170, 0.4);
-    content: "\00a0";
-    height: 3em;
-    width: 3em;
-    left: calc(50% - 2.1em);
-    top: 1.5em;
-    transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
-  .ancora {
-	padding-top: 6em;
-	display: block;
-	z-index: 999;
-  }
-  .grey {
-    background-color: #eee;
-    color: #333;
-  }
-  .dgrey {
-    background-color: #889;
-    color: #333;
-  }
-  .blue {
-    background-color: #00bcbd;
-    color: #ddd;
-  }
-  .white {
-    background-color: #fff;
-    color: #333;
   }
 }

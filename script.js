@@ -1,19 +1,22 @@
 function abrirmenu() {
 	menu = document.getElementById("menu");
 	if (menu.style.display !== "block") {
-		$(".menu").css({
+		menu.style.display = "block"
+		/* $(".menu").css({
 			"opacity": "0",
 			"display": "block",
-		}).show().animate({ opacity: 1 })
+		}).show().animate({ opacity: 1 }) */
+
 	} else {
-		$(".menu").css({
+		menu.style.display = "none"
+		/* $(".menu").css({
 			"opacity": "1",
 			"display": "block",
 		}).show().animate({ opacity: 0 })
 
 		setTimeout(function () {
 			$(menu).css('display', 'none');
-		}, 500);
+		}, 500); */
 	}
 }
 function irPara(hash) {
@@ -22,5 +25,5 @@ function irPara(hash) {
 	}
 
 	const position = document.getElementById(hash).offsetTop;
-	$(".corpo").animate({ scrollTop: position }, 500);
+	$(".corpo").animate({ scrollTop: position }, 300);
 }

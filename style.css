@@ -95,8 +95,8 @@ body {
 }
 .post {
   margin-top: 0em;
-  padding: 0em 5em 8em 5em;
-  min-height: calc(100% - 24em);
+  padding: 1em 5em 8em 5em;
+  min-height: calc(100% - 14em);
 }
 .titleGrey {
   text-align: center;
@@ -129,6 +129,14 @@ body {
   margin-top: 0em;
   height: calc(100% - 10em);
   padding: 0 1em 0 1em;
+}
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+.icones {
+  font-size: 2em;
+  margin-right: 0.5em;
 }
 @media only screen and (max-width: 1080px) {
   .top-bar .button-bar {
@@ -195,8 +203,13 @@ body {
     padding-top: 50%;
   }
   .ancora {
-	padding-top: 10em;
+	padding-top: 0em;
 	display: block;
+  }
+  .post {
+    margin-top: 0em;
+    padding: 9em 5em 8em 5em;
+    min-height: calc(100% - 24em);
   }
   .dateBubble {
     background-color: #00bcbd;
@@ -279,7 +292,7 @@ body {
     background-color: #00bcbd;
   }
   .ancora {
-	padding-top: 10em;
+	padding-top: 5em;
   }
   .postA .nome {
     text-align: center;

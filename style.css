@@ -209,7 +209,7 @@ a {
   .post {
     margin-top: 0em;
     padding: 9em 5em 8em 5em;
-    min-height: calc(100% - 24em);
+    min-height: calc(100% - 14em);
   }
   .dateBubble {
     background-color: #00bcbd;

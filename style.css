@@ -145,9 +145,9 @@
   .titlePrint {
     display: none;
   }
-  .contact {
-    height: 15em;
-    min-height: 15em;
+  .contactPost {
+    height: 15em !important;
+    min-height: 15em !important;
   }
   .alignLeft {
     text-align: left;

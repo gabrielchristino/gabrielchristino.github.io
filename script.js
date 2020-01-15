@@ -27,3 +27,7 @@ function irPara(hash) {
 	const position = document.getElementById(hash).offsetTop - 32;
 	$(".corpo").animate({ scrollTop: position }, 300);
 }
+
+function printMe() {
+	window.print();
+}

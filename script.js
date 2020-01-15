@@ -24,6 +24,6 @@ function irPara(hash) {
 		abrirmenu();
 	}
 
-	const position = document.getElementById(hash).offsetTop;
+	const position = document.getElementById(hash).offsetTop - 32;
 	$(".corpo").animate({ scrollTop: position }, 300);
 }

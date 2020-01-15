@@ -146,8 +146,8 @@
     display: none;
   }
   .contactPost {
-    height: 15em !important;
-    min-height: 15em !important;
+    height: 10em !important;
+    min-height: 10em !important;
   }
   .alignLeft {
     text-align: left;

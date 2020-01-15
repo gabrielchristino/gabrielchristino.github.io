@@ -1,142 +1,172 @@
-html {
-  scroll-behavior: smooth;
-}
-body {
-  overflow: hidden;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  color: #444;
-}
-.grey {
-  background-color: #eee;
-  color: #333;
-}
-.dgrey {
-  background-color: #889;
-  color: #ddd;
-}
-.blue {
-  background-color: #00bcbd;
-  color: #ddd;
-}
-.white {
-  background-color: #fff;
-  color: #333;
-}
-.b1 {
-  margin: -0.1em;
-}
-.b2 {
-  text-align: center;
-  font-weight: 600;
-}
-.b3 {
-  text-align: center;
-  font-weight: 600;
-  font-size: 1.3em;
-  color: #fff;
-}
-.s1 {
-  text-align: center;
-  font-weight: 200;
-  font-size: 3em;
-}
-.s2 {
-  text-align: center;
-  font-weight: 200;
-  font-size: 2.8em;
-}
-.s3 {
-  text-align: center;
-  font-weight: 200;
-  font-size: 2em;
-}
-.s4 {
-  text-align: center;
-  font-weight: 200;
-  font-size: 1.6em;
-}
-.s5 {
-  text-align: center;
-  font-weight: 200;
-  font-size: 1em;
-}
-.bubble {
-  width: 100%;
-}
-.bubble::after {
-  display: block;
-  position: relative;
-  background-color: #fff;
-  box-shadow: -0.1em -0.1em 0.4em 0 rgba(170, 170, 170, 0.4);
-  content: "\00a0";
-  height: 3em;
-  width: 3em;
-  left: calc(50% - 2.1em);
-  top: 1.5em;
-  transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-.boxWhite {
-  padding: 1.5em;
-  background-color: #fff;
-  margin: 0 1em 0 1em;
-  box-shadow: 0 0 0.1em #aaa;
-  border-radius: 0.3em;
-  margin-bottom: 1.5em;
-}
-.postA .dev {
-  text-align: center;
-  font-weight: 300;
-  font-size: 3.5em;
-}
-.post {
-  margin-top: 0em;
-  padding: 1em 5em 8em 5em;
-  min-height: calc(100% - 14em);
-}
-.titleGrey {
-  text-align: center;
-  font-weight: 300;
-  font-size: 5.4em;
-  color: #ff675f;
-}
-.titleBlue {
-  text-align: center;
-  font-weight: 300;
-  font-size: 5.4em;
-  color: #ddd;
-}
-.post .parag {
-  font-weight: 400;
-  font-size: 2.7em;
-}
-.corpo {
-  position: absolute;
-  display: block;
-  top: 0em;
-  left: 0;
-  height: calc(100% - 0em);
-  overflow-y: auto;
-  overflow-x: hidden;
-  background-color: #eee;
-}
-.postA {
-  background-image: url("./img_parallax.jpg");
-  margin-top: 0em;
-  height: calc(100% - 10em);
-  padding: 0 1em 0 1em;
-}
-a {
-  text-decoration: none;
-  color: #ddd;
-}
-.icones {
-  font-size: 2em;
-  margin-right: 0.5em;
+@media only screen {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #444;
+  }
+  .grey {
+    background-color: #eee;
+    color: #333;
+  }
+  .dgrey {
+    background-color: #889;
+    color: #ddd;
+  }
+  .blue {
+    background-color: #00bcbd;
+    color: #ddd;
+  }
+  .white {
+    background-color: #fff;
+    color: #333;
+  }
+  .b1 {
+    margin: -0.1em;
+  }
+  .b2 {
+    text-align: center;
+    font-weight: 600;
+  }
+  .b3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #fff;
+  }
+  .s1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 3em;
+  }
+  .s2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.8em;
+  }
+  .s3 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2em;
+  }
+  .s4 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.6em;
+  }
+  .s5 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1em;
+  }
+  .bubble {
+    width: 100%;
+  }
+  .bubble::after {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    box-shadow: -0.1em -0.1em 0.4em 0 rgba(170, 170, 170, 0.4);
+    content: "\00a0";
+    height: 3em;
+    width: 3em;
+    left: calc(50% - 2.1em);
+    top: 1.5em;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .boxWhite {
+    padding: 1.5em;
+    background-color: #fff;
+    margin: 0 1em 0 1em;
+    box-shadow: 0 0 0.1em #aaa;
+    border-radius: 0.3em;
+    margin-bottom: 1.5em;
+  }
+  .postA .dev {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.5em;
+  }
+  .post {
+    margin-top: 0em;
+    padding: 1em 5em 8em 5em;
+    min-height: calc(100% - 14em);
+  }
+  .titleGrey {
+    text-align: center;
+    font-weight: 300;
+    font-size: 5.4em;
+    color: #ff675f;
+  }
+  .titleBlue {
+    text-align: center;
+    font-weight: 300;
+    font-size: 5.4em;
+    color: #ddd;
+  }
+  .post .parag {
+    font-weight: 400;
+    font-size: 2.7em;
+  }
+  .corpo {
+    position: absolute;
+    display: block;
+    top: 0em;
+    left: 0;
+    height: calc(100% - 0em);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #eee;
+  }
+  .postA {
+    background-image: url("./img_parallax.jpg");
+    margin-top: 0em;
+    height: calc(100% - 10em);
+    padding: 0 1em 0 1em;
+  }
+  a {
+    text-decoration: none;
+    color: #ddd;
+  }
+  .icones {
+    font-size: 2em;
+    margin-right: 0.5em;
+  }
+  .title {
+    display: block;
+  }
+  .titlePrint {
+    display: none;
+  }
+  .contact {
+    height: 15em;
+    min-height: 15em;
+  }
+  .alignLeft {
+    text-align: left;
+  }
+  .alignCenter {
+    text-align: center;
+  }
+  .linkContatos {
+    display: block;
+  }
+  .linkContatosPrint {
+    display: none;
+  }
+  .calendarIcon {
+    display: none !important;
+  }
+  .codeIcon {
+    display: none !important;
+  }
 }
 @media only screen and (max-width: 1080px) {
   .top-bar .button-bar {
@@ -311,5 +341,57 @@ a {
     font-size: 2.9em;
     padding: 0.5em;
     border-radius: 0.3em;
+  }
+}
+@media print {
+
+  body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+    font-size: 12pt;
+    width: 595px;
+    text-align: justify;
+  }
+  .top-bar {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .postA {
+    display: none;
+  }
+  .title {
+    display: none;
+  }
+  .titlePrint {
+    display: block;
+    font-weight: 600;
+    font-size: 14pt;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .linkContatos {
+    display: none;
+  }
+  .linkContatosPrint {
+    display: block;
+  }
+  .calendarIcon {
+    display: block;
+  }
+  b {
+    font-weight: 100;
+  }
+  .b1, .b3 {
+    display: inline-block;
+    font-style: italic;
+    margin: 0;
+  }
+  .s1, .s2, .s3, .s4, .s5 {
+    font-style: italic;
   }
 }

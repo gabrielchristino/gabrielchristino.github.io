@@ -30,7 +30,4 @@ function irPara(hash) {
 
 function printMe() {
 	window.print();
-	var gadget = new cloudprint.Gadget();
-      gadget.setPrintDocument("url", $('title').html(), window.location.href, "utf-8");
-      gadget.openPrintDialog();
 }

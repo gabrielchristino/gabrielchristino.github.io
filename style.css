@@ -233,8 +233,8 @@
     padding-top: 50%;
   }
   .ancora {
-	padding-top: 0em;
-	display: block;
+    padding-top: 0em;
+    display: block;
   }
   .post {
     margin-top: 0em;
@@ -322,7 +322,7 @@
     background-color: #00bcbd;
   }
   .ancora {
-	padding-top: 5em;
+    padding-top: 5em;
   }
   .postA .nome {
     text-align: center;
@@ -344,7 +344,6 @@
   }
 }
 @media print {
-
   body {
     margin: 0;
     color: #000;
@@ -362,7 +361,7 @@
     display: none;
   }
   .menu {
-    display: none;
+    display: none !important;
   }
   .postA {
     display: none;
@@ -395,12 +394,17 @@
   b {
     font-weight: 100;
   }
-  .b1, .b3 {
+  .b1,
+  .b3 {
     display: inline-block;
     font-style: italic;
     margin: 0;
   }
-  .s1, .s2, .s3, .s4, .s5 {
+  .s1,
+  .s2,
+  .s3,
+  .s4,
+  .s5 {
     font-style: italic;
   }
   .parag {

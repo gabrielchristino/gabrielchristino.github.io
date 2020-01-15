@@ -350,8 +350,13 @@
     color: #000;
     background-color: #fff;
     font-size: 12pt;
-    width: 595px;
+    width: 750px;
     text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .nome {
+    font-size: 24pt;
+    text-align: center !important;
   }
   .top-bar {
     display: none;
@@ -366,9 +371,13 @@
     display: none;
   }
   .titlePrint {
+    text-align: center;
     display: block;
     font-weight: 600;
     font-size: 14pt;
+  }
+  .b2None {
+    display: none !important;
   }
   a {
     text-decoration: none;
@@ -393,5 +402,12 @@
   }
   .s1, .s2, .s3, .s4, .s5 {
     font-style: italic;
+  }
+  .parag {
+    margin-top: 0;
+  }
+  .paragPrint {
+    margin-bottom: 0;
+    text-align: center !important;
   }
 }

@@ -277,7 +277,7 @@ body {
     font-size: 1em;
     border-radius: 0.5em;
     background: #00a8a8;
-    background-image: url('./assets/images/winXpWp.jpg');
+    background-image: url('../../assets/images/winXpWp.jpg');
     background-size: cover;
 }
 
@@ -425,7 +425,7 @@ body {
     font-size: 1em;
     border-radius: 0.5em;
     background: #00a8a8;
-    background-image: url('./assets/images/winVistaWp.jpg');
+    background-image: url('../../assets/images/winVistaWp.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -502,7 +502,7 @@ body {
 }
 
 .modalVista1 .tituloVista button::after {
-    content: "Voltar para 2019";
+    content: "Voltar para 2018";
     position: absolute;
     float: right;
     top: 1.5em;
@@ -516,7 +516,7 @@ body {
 }
 
 .modalVista1 .tituloVista button::after:hover {
-    content: "Voltar para 2019";
+    content: "Voltar para 2018";
     background-color: #865d09;
 }
 
@@ -582,7 +582,7 @@ body {
 }
 
 .quadrado {
-    background: url("./assets/images/profile.jpeg");
+    background: url("../../assets/images/profile.jpeg");
     background-size: 300%;
     cursor: pointer;
     border-radius: 0.2em;

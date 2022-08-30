@@ -229,7 +229,7 @@ body {
 
 .barraTarefa8bit {
     position: relative;
-    width: 92em;
+    width: 92vw;
     max-width: 870px;
     bottom: 2vh;
 }
